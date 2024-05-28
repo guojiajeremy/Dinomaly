@@ -100,4 +100,5 @@ python dinomaly_visa_sep.py --data_path ../VisA_pytorch/1cls
 python dinomaly_realiad_sep.py --data_path ../Real-IAD
 ```
 
-
+Training Unstability: The optimization can be unstable with loss spikes (e.g. ...0.05, 0.04, 0.04, **0.32**, **0.23**, 0.08...)
+, which can be harmful to performance. This occurs very very rare. If you see such loss spikes during training, consider change a random seed.
