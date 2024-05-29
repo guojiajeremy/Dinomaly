@@ -5,6 +5,8 @@ PyTorch Implementation of
 
 The code is preview version, so it could be really ugly with minor errors. We will try to reformat it after the paper is accepted.
 
+Give me a star if you like it!!!
+
 ## 1. Environments
 
 Create a new conda environment and install required packages.
