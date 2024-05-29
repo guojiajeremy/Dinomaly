@@ -21,7 +21,6 @@ import math
 
 import pickle
 
-
 def modify_grad(x, inds, factor=0.):
     inds = inds.expand_as(x)
     x[inds] *= factor
