@@ -20,7 +20,7 @@ from models.vision_transformer import Block as VitBlock, bMlp, Attention, Linear
 from dataset import MVTecDataset, RealIADDataset
 import torch.backends.cudnn as cudnn
 import argparse
-from utils import evaluation_batch, evaluation_batch_fast, global_cosine_hm_percent, regional_cosine_focal, \
+from utils import evaluation_batch, global_cosine_hm_percent, regional_cosine_focal, \
     regional_cosine_hm, WarmCosineScheduler
 from torch.nn import functional as F
 from functools import partial
