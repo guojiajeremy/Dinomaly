@@ -20,10 +20,6 @@ from functools import partial
 import math
 
 import pickle
-from adeval.mem_effic import auroc_and_aupr as auroc_aupr
-from adeval.cuda_mem_effic import auroc_aupr_f1max as auroc_aupr_f1max_cuda
-from adeval.cuda_mem_effic import auroc_aupr_f1max_aupro as auroc_aupr_f1max_aupro_cuda
-from adeval.cuda_mem_effic import aupro as aupro_cuda
 
 
 def modify_grad(x, inds, factor=0.):
@@ -410,54 +406,6 @@ def evaluation_batch(model, dataloader, device, _class_=None, max_ratio=0, resiz
 
         f1_sp = f1_score_max(gt_list_sp, pr_list_sp)
         f1_px = f1_score_max(gt_list_px, pr_list_px)
-
-    return [auroc_sp, ap_sp, f1_sp, auroc_px, ap_px, f1_px, aupro_px]
-
-
-def evaluation_batch_fast(model, dataloader, device, _class_=None, max_ratio=0, resize_mask=None):
-    model.eval()
-    gt_list_px = []
-    pr_list_px = []
-    gt_list_sp = []
-    pr_list_sp = []
-    gaussian_kernel = get_gaussian_kernel(kernel_size=5, sigma=4).to(device)
-
-    with torch.no_grad():
-        for img, gt, label, cls in dataloader:
-            img, gt, label = img.to(device), gt.to(device), label.to(device)
-            output = model(img)
-            en, de = output[0], output[1]
-
-            anomaly_map, _ = cal_anomaly_maps(en, de, img.shape[-1])
-            # anomaly_map = anomaly_map - anomaly_map.mean(dim=[1, 2, 3]).view(-1, 1, 1, 1)
-
-            if resize_mask is not None:
-                anomaly_map = F.interpolate(anomaly_map, size=resize_mask, mode='bilinear', align_corners=False)
-                gt = F.interpolate(gt, size=resize_mask, mode='nearest')
-
-            anomaly_map = gaussian_kernel(anomaly_map)
-
-            gt = gt.bool()
-
-            gt_list_px.append(gt)
-            pr_list_px.append(anomaly_map)
-            gt_list_sp.append(label)
-
-            if max_ratio == 0:
-                sp_score = torch.max(anomaly_map.flatten(1), dim=1)[0].cpu().numpy()
-            else:
-                anomaly_map = anomaly_map.flatten(1)
-                sp_score = torch.sort(anomaly_map, dim=1, descending=True)[0][:, :int(anomaly_map.shape[1] * max_ratio)]
-                sp_score = sp_score.mean(dim=1)
-            pr_list_sp.append(sp_score)
-
-        gt_list_px = torch.cat(gt_list_px, dim=0)[:, 0].byte()
-        pr_list_px = torch.cat(pr_list_px, dim=0)[:, 0]
-        gt_list_sp = torch.cat(gt_list_sp).flatten()
-        pr_list_sp = torch.cat(pr_list_sp).flatten()
-
-        auroc_px, ap_px, f1_px, aupro_px = auroc_aupr_f1max_aupro_cuda(pr_list_px, gt_list_px)
-        auroc_sp, ap_sp, f1_sp = auroc_aupr_f1max_cuda(pr_list_sp, gt_list_sp)
 
     return [auroc_sp, ap_sp, f1_sp, auroc_px, ap_px, f1_px, aupro_px]
 
