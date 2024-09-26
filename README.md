@@ -7,6 +7,8 @@ The code is preview version, so it could be really ugly with minor errors. We wi
 
 Give me a star if you like it!!!
 
+News 09.26.2024: Just got rejected even with 5 positive-score reviewers and no negative score, because "AC: lack of novelty". Wish me good luck.
+
 ## 1. Environments
 
 Create a new conda environment and install required packages.
