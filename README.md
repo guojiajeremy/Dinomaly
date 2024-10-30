@@ -2,12 +2,13 @@
 
 PyTorch Implementation of
 "Dinomaly: The Less Is More Philosophy in Multi-Class Unsupervised Anomaly Detection".
+[paper](https://arxiv.org/abs/2405.14325)
 
 The code is preview version, so it could be really ugly with minor errors. We will try to reformat it after the paper is accepted.
 
 Give me a star if you like it!!!
 
-News 09.26.2024: Just got rejected even with 5 positive-score reviewers and no negative score, because "AC: lack of novelty". Wish me good luck.
+News 09.26.2024: Just got rejected even with pretty positive scores. Wish me good luck.
 
 ## 1. Environments
 
