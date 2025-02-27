@@ -107,3 +107,8 @@ python dinomaly_realiad_sep.py --data_path ../Real-IAD
 
 Training Unstability: The optimization can be unstable with loss spikes (e.g. ...0.05, 0.04, 0.04, **0.32**, **0.23**, 0.08...)
 , which can be harmful to performance. This occurs very very rare. If you see such loss spikes during training, consider change a random seed.
+
+## Error Anouncement
+In our code, we binarize GT mask by gt.bool(), i.e., gt[gt>0]=1.
+As raised in the issue, this may make it inaccurate (larger than the real mask area by one pixel). The common practice is gt[gt>0.5]=1.
+This error does not affect image-level performance, but slightly affect pixel-level performances. The pixel-wise AP and F1-max reported in the paper (gt[gt>0]=1) is  higher than they should be.
