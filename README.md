@@ -110,8 +110,7 @@ Training Unstability: The optimization can be unstable with loss spikes (e.g. ..
 , which can be harmful to performance. This occurs very very rare. If you see such loss spikes during training, consider change a random seed.
 
 ## Eval discrepancy of anomaly localization
-In our code, we binarize GT mask by gt.bool() after resizing (down-sample), i.e., gt[gt>0]=1.
-As raised in a issue, the common practice is gt[gt>0.5]=1. Therefore, "gt[gt>0]=1" may make the anomaly GT one pixel larger than "gt[gt>0.5]=1".
-This behavior does not affect image-level performance, but slightly affect pixel-level performances.
+In our code implementation, we binarize the GT mask using gt.bool() after down-sampling, specifically gt[gt>0]=1. As pointed out in an issue, the previous common practice is to use gt[gt>0.5]=1. 
+The difference between these two binarization approaches is that gt[gt>0]=1 may result in anomaly regions being one pixel larger compared to gt[gt>0.5]=1. This difference does not affect image-level performance metrics, but it has a slight impact on pixel-level evaluation metrics. 
 
-We think gt[gt>0]=1 also makes sense. It can be seen as max pooling, so that the pixel in the down-sampled map that originally covers at least one anomaly pixel are regarded as anomalous.
+We think gt[gt>0]=1 is a more reasonable choice. It can be seen as max pooling, so that in the down-sampled GT map, any position that corresponds to a region containing at least one anomaly pixel in the original map is marked as anomalous. If an anomaly region is extremely small in the original image (say 2 pixels), gt[gt>0.5]=1 will erase it while gt[gt>0]=1 can keep it.
