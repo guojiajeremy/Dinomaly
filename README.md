@@ -4,11 +4,12 @@ PyTorch Implementation of
 "Dinomaly: The Less Is More Philosophy in Multi-Class Unsupervised Anomaly Detection".
 [paper](https://arxiv.org/abs/2405.14325)
 
-The code is preview version, so it could be really ugly with minor errors. We will try to reformat it after the paper is accepted.
-
 Give me a star if you like it!!!
 
 News 02/27/2025: __Accepted by CVPR2025!!!__ 🤓
+
+![fig1](https://github.com/user-attachments/assets/0bb2e555-656f-4218-b93b-844b5894e429)
+
 
 ## 1. Environments
 
@@ -108,7 +109,9 @@ python dinomaly_realiad_sep.py --data_path ../Real-IAD
 Training Unstability: The optimization can be unstable with loss spikes (e.g. ...0.05, 0.04, 0.04, **0.32**, **0.23**, 0.08...)
 , which can be harmful to performance. This occurs very very rare. If you see such loss spikes during training, consider change a random seed.
 
-## Error Anouncement
-In our code, we binarize GT mask by gt.bool(), i.e., gt[gt>0]=1.
-As raised in the issue, this may make it inaccurate (larger than the real mask area by one pixel). The common practice is gt[gt>0.5]=1.
-This error does not affect image-level performance, but slightly affect pixel-level performances. The pixel-wise AP and F1-max reported in the paper (gt[gt>0]=1) is  higher than they should be.
+## Eval discrepancy of anomaly localization
+In our code, we binarize GT mask by gt.bool() after resizing (down-sample), i.e., gt[gt>0]=1.
+As raised in a issue, the common practice is gt[gt>0.5]=1. Therefore, "gt[gt>0]=1" may make the anomaly GT one pixel larger than "gt[gt>0.5]=1".
+This behavior does not affect image-level performance, but slightly affect pixel-level performances.
+
+We think gt[gt>0]=1 also makes sense. It can be seen as max pooling, so that the pixel in the down-sampled map that originally covers at least one anomaly pixel are regarded as anomalous.
