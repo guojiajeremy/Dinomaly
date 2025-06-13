@@ -1,12 +1,12 @@
 # Dinomaly (CVPR2025)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/dinomaly-the-less-is-more-philosophy-in-multi/multi-class-anomaly-detection-on-mvtec-ad)](https://paperswithcode.com/sota/multi-class-anomaly-detection-on-mvtec-ad?p=dinomaly-the-less-is-more-philosophy-in-multi)
+
 
 PyTorch Implementation of
 "Dinomaly: The Less Is More Philosophy in Multi-Class Unsupervised Anomaly Detection".
 [paper](https://arxiv.org/abs/2405.14325)
 
-Give me a star if you like it!!!
-
-News 02/27/2025: __Accepted by CVPR2025!!!__ 🤓
+A very strong, simple, and easy to use baseline for UAD, multi-class UAD, and more. Give me a star if you like it!!!
 
 ![fig1](https://github.com/user-attachments/assets/0bb2e555-656f-4218-b93b-844b5894e429)
 
@@ -114,3 +114,15 @@ In our code implementation, we binarize the GT mask using gt.bool() after down-s
 The difference between these two binarization approaches is that gt[gt>0]=1 may result in anomaly regions being one pixel larger compared to gt[gt>0.5]=1. This difference does not affect image-level performance metrics, but it has a slight impact on pixel-level evaluation metrics. 
 
 We think gt[gt>0]=1 is a more reasonable choice. It can be seen as max pooling, so that in the down-sampled GT map, any position that corresponds to a region containing at least one anomaly pixel in the original map is marked as anomalous. If an anomaly region is extremely small in the original image (say 2 pixels), gt[gt>0.5]=1 will erase it while gt[gt>0]=1 can keep it.
+
+```
+@inproceedings{guo2025dinomaly,
+  title={Dinomaly: The less is more philosophy in multi-class unsupervised anomaly detection},
+  author={Guo, Jia and Lu, Shuai and Zhang, Weihang and Chen, Fang and Li, Huiqi and Liao, Hongen},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={20405--20415},
+  year={2025}
+}
+
+```
+
