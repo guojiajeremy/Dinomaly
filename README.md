@@ -2,11 +2,13 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/dinomaly-the-less-is-more-philosophy-in-multi/multi-class-anomaly-detection-on-mvtec-ad)](https://paperswithcode.com/sota/multi-class-anomaly-detection-on-mvtec-ad?p=dinomaly-the-less-is-more-philosophy-in-multi)
 
 
-PyTorch Implementation of
+PyTorch Implementation of CVPR 2025
 "Dinomaly: The Less Is More Philosophy in Multi-Class Unsupervised Anomaly Detection".
-[paper](https://arxiv.org/abs/2405.14325)
+[arxiv](https://arxiv.org/abs/2405.14325) [cvpr](https://openaccess.thecvf.com/content/CVPR2025/papers/Guo_Dinomaly_The_Less_Is_More_Philosophy_in_Multi-Class_Unsupervised_Anomaly_CVPR_2025_paper.pdf)
 
-A very strong, simple, and easy to use baseline for UAD, multi-class UAD, and more. Give me a star if you like it!!!
+A very strong, simple, and easy to use baseline for UAD, multi-class UAD, and more. The first multi-class UAD model that can compete with single-class SOTAs !!!
+
+Give me a star if you like it!!!
 
 ![fig1](https://github.com/user-attachments/assets/0bb2e555-656f-4218-b93b-844b5894e429)
 
@@ -115,6 +117,7 @@ The difference between these two binarization approaches is that gt[gt>0]=1 may 
 
 We think gt[gt>0]=1 is a more reasonable choice. It can be seen as max pooling, so that in the down-sampled GT map, any position that corresponds to a region containing at least one anomaly pixel in the original map is marked as anomalous. If an anomaly region is extremely small in the original image (say 2 pixels), gt[gt>0.5]=1 will erase it while gt[gt>0]=1 can keep it.
 
+## Citation
 ```
 @inproceedings{guo2025dinomaly,
   title={Dinomaly: The less is more philosophy in multi-class unsupervised anomaly detection},
@@ -123,6 +126,5 @@ We think gt[gt>0]=1 is a more reasonable choice. It can be seen as max pooling, 
   pages={20405--20415},
   year={2025}
 }
-
 ```
 
