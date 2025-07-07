@@ -1,16 +1,31 @@
-# Dinomaly (CVPR2025)
+# Dinomaly: The Less Is More Philosophy in Multi-Class Unsupervised Anomaly Detection
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/dinomaly-the-less-is-more-philosophy-in-multi/multi-class-anomaly-detection-on-mvtec-ad)](https://paperswithcode.com/sota/multi-class-anomaly-detection-on-mvtec-ad?p=dinomaly-the-less-is-more-philosophy-in-multi)
 
 
 PyTorch Implementation of CVPR 2025
 "Dinomaly: The Less Is More Philosophy in Multi-Class Unsupervised Anomaly Detection".
+
 [arxiv](https://arxiv.org/abs/2405.14325) [cvpr](https://openaccess.thecvf.com/content/CVPR2025/papers/Guo_Dinomaly_The_Less_Is_More_Philosophy_in_Multi-Class_Unsupervised_Anomaly_CVPR_2025_paper.pdf)
 
-A very strong, simple, and easy to use baseline for UAD, multi-class UAD, and more. The first multi-class UAD model that can compete with single-class SOTAs !!!
+The first multi-class UAD model that can compete with single-class SOTAs !!!
 
-Give me a star if you like it!!!
+Give me a ⭐️ if you like it.
 
 ![fig1](https://github.com/user-attachments/assets/0bb2e555-656f-4218-b93b-844b5894e429)
+
+## Abstract
+
+Recent studies highlighted a practical setting of unsupervised anomaly detection (UAD) that builds a unified model for multi-class images. Despite various advancements addressing this challenging task, the detection performance under the multi-class setting still lags far behind state-of-the-art class-separated models. Our research aims to bridge this substantial performance gap. In this paper, we introduce a minimalistic reconstruction-based anomaly detection framework, namely Dinomaly, which leverages pure Transformer architectures without relying on complex designs, additional modules, or specialized tricks. Given this powerful framework consisted of only Attentions and MLPs, we found four simple components that are essential to multi-class anomaly detection: (1) Foundation Transformers that extracts universal and discriminative features, (2) Noisy Bottleneck where pre-existing Dropouts do all the noise injection tricks, (3) Linear Attention that naturally cannot focus, and (4) Loose Reconstruction that does not force layer-to-layer and point-by-point reconstruction. Extensive experiments are conducted across popular anomaly detection benchmarks including MVTec-AD, VisA, and Real-IAD. Our proposed Dinomaly achieves impressive image-level AUROC of 99.6%, 98.7%, and 89.3% on the three datasets respectively (99.6%, 98.9%, 90.1% with ViT-L), which is not only superior to state-of-the-art multi-class UAD methods, but also achieves the most advanced class-separated UAD records.
+
+
+## News
+ - 05.2024: Arxiv preprint and github code released🚀
+ 
+ - 09.2024: Rejected by NeurIPS 2024 with 5 positive scores and no negative score, because "AC: lack of novelty"😭. Wish me good luck.
+ 
+ - 02.2025: Accepted by CVPR 2025🎉
+ 
+ - 07.2025: Spoil alert: We will come back with Dinomly-2😛
 
 
 ## 1. Environments
