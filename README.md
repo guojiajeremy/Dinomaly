@@ -1,21 +1,22 @@
+<div align="center">
+
 # Dinomaly: The Less Is More Philosophy in Multi-Class Unsupervised Anomaly Detection
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/dinomaly-the-less-is-more-philosophy-in-multi/multi-class-anomaly-detection-on-mvtec-ad)](https://paperswithcode.com/sota/multi-class-anomaly-detection-on-mvtec-ad?p=dinomaly-the-less-is-more-philosophy-in-multi)
 
+### CVPR 2025 
+[arxiv](https://arxiv.org/abs/2405.14325) | [cvpr](https://openaccess.thecvf.com/content/CVPR2025/papers/Guo_Dinomaly_The_Less_Is_More_Philosophy_in_Multi-Class_Unsupervised_Anomaly_CVPR_2025_paper.pdf)
+
+</div>
 
 PyTorch Implementation of CVPR 2025
 "Dinomaly: The Less Is More Philosophy in Multi-Class Unsupervised Anomaly Detection".
 
-[arxiv](https://arxiv.org/abs/2405.14325) [cvpr](https://openaccess.thecvf.com/content/CVPR2025/papers/Guo_Dinomaly_The_Less_Is_More_Philosophy_in_Multi-Class_Unsupervised_Anomaly_CVPR_2025_paper.pdf)
 
 The first multi-class UAD model that can compete with single-class SOTAs !!!
 
 Give me a ⭐️ if you like it.
 
 ![fig1](https://github.com/user-attachments/assets/0bb2e555-656f-4218-b93b-844b5894e429)
-
-## Abstract
-
-Recent studies highlighted a practical setting of unsupervised anomaly detection (UAD) that builds a unified model for multi-class images. Despite various advancements addressing this challenging task, the detection performance under the multi-class setting still lags far behind state-of-the-art class-separated models. Our research aims to bridge this substantial performance gap. In this paper, we introduce a minimalistic reconstruction-based anomaly detection framework, namely Dinomaly, which leverages pure Transformer architectures without relying on complex designs, additional modules, or specialized tricks. Given this powerful framework consisted of only Attentions and MLPs, we found four simple components that are essential to multi-class anomaly detection: (1) Foundation Transformers that extracts universal and discriminative features, (2) Noisy Bottleneck where pre-existing Dropouts do all the noise injection tricks, (3) Linear Attention that naturally cannot focus, and (4) Loose Reconstruction that does not force layer-to-layer and point-by-point reconstruction. Extensive experiments are conducted across popular anomaly detection benchmarks including MVTec-AD, VisA, and Real-IAD. Our proposed Dinomaly achieves impressive image-level AUROC of 99.6%, 98.7%, and 89.3% on the three datasets respectively (99.6%, 98.9%, 90.1% with ViT-L), which is not only superior to state-of-the-art multi-class UAD methods, but also achieves the most advanced class-separated UAD records.
 
 
 ## News
@@ -27,6 +28,12 @@ Recent studies highlighted a practical setting of unsupervised anomaly detection
  
  - 07.2025: Spoil alert: We will come back with Dinomly-2😛
 
+ - 07.2025: To be integrated in Intel open-edge [Anomalib](https://github.com/open-edge-platform/anomalib/pull/2835) in v2.1.0! Great thanks to the contributors. Anomalib is a comprehensive library for benchmarking, developing and deploying deep learning anomaly detection algorithms.
+
+
+## Abstract
+
+Recent studies highlighted a practical setting of unsupervised anomaly detection (UAD) that builds a unified model for multi-class images. Despite various advancements addressing this challenging task, the detection performance under the multi-class setting still lags far behind state-of-the-art class-separated models. Our research aims to bridge this substantial performance gap. In this paper, we introduce a minimalistic reconstruction-based anomaly detection framework, namely Dinomaly, which leverages pure Transformer architectures without relying on complex designs, additional modules, or specialized tricks. Given this powerful framework consisted of only Attentions and MLPs, we found four simple components that are essential to multi-class anomaly detection: (1) Foundation Transformers that extracts universal and discriminative features, (2) Noisy Bottleneck where pre-existing Dropouts do all the noise injection tricks, (3) Linear Attention that naturally cannot focus, and (4) Loose Reconstruction that does not force layer-to-layer and point-by-point reconstruction. Extensive experiments are conducted across popular anomaly detection benchmarks including MVTec-AD, VisA, and Real-IAD. Our proposed Dinomaly achieves impressive image-level AUROC of 99.6%, 98.7%, and 89.3% on the three datasets respectively (99.8%, 98.9%, 90.1% with ViT-L), which is not only superior to state-of-the-art multi-class UAD methods, but also achieves the most advanced class-separated UAD records.
 
 ## 1. Environments
 
@@ -125,6 +132,51 @@ python dinomaly_realiad_sep.py --data_path ../Real-IAD
 
 Training Unstability: The optimization can be unstable with loss spikes (e.g. ...0.05, 0.04, 0.04, **0.32**, **0.23**, 0.08...)
 , which can be harmful to performance. This occurs very very rare. If you see such loss spikes during training, consider change a random seed.
+
+## Results
+
+**A. Compare with MUAD SOTAs:**
+<div align="center">
+
+<img alt="image" src="https://github.com/user-attachments/assets/082922bb-e8f8-4efc-9597-2a7dc8577d6e" />
+
+<img width="869" height="482" alt="image" src="https://github.com/user-attachments/assets/9da30ae7-5c7f-4117-ad93-bf12f0fd98f0" />
+
+</div>
+
+
+
+**Dinomaly can perfectly scale with model size, input image size, and the choice of foundation model.**
+
+**B. Model Size:**
+<div align="center">
+
+<img width="400" height="220" alt="image" src="https://github.com/user-attachments/assets/6f388ab7-0b81-450b-ae13-358a00c74f3f" />
+
+<img width="865" height="190" alt="image" src="https://github.com/user-attachments/assets/a5d7c83f-bc64-4704-8607-a7a00cffe545" />
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/5005caed-2294-4766-92ed-ee93df5c5428" />
+
+</div>
+
+
+**C. Input Size:**
+<div align="center">
+
+<img width="400" height="220" alt="image" src="https://github.com/user-attachments/assets/e9a324a3-7f26-4d69-8806-a183042a3388" />
+
+<img width="865" height="302" alt="image" src="https://github.com/user-attachments/assets/4f259320-2e4b-4796-aa7e-740bbd246d37" />
+
+</div>
+
+**D. Choice of Foundaiton Model:**
+<div align="center">
+
+<img width="400" height="220" alt="image" src="https://github.com/user-attachments/assets/a1ae0beb-ac5d-4926-94d4-4a99e07de03b" />
+
+<img width="865" height="474" alt="image" src="https://github.com/user-attachments/assets/8c95f29b-578e-481d-bf0c-75429f76158f" />
+
+</div>
+
 
 ## Eval discrepancy of anomaly localization
 In our code implementation, we binarize the GT mask using gt.bool() after down-sampling, specifically gt[gt>0]=1. As pointed out in an issue, the previous common practice is to use gt[gt>0.5]=1. 
