@@ -1,7 +1,6 @@
 <div align="center">
 
 # Dinomaly: The Less Is More Philosophy in Multi-Class Unsupervised Anomaly Detection
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/dinomaly-the-less-is-more-philosophy-in-multi/multi-class-anomaly-detection-on-mvtec-ad)](https://paperswithcode.com/sota/multi-class-anomaly-detection-on-mvtec-ad?p=dinomaly-the-less-is-more-philosophy-in-multi)
 
 ### CVPR 2025 
 [arxiv](https://arxiv.org/abs/2405.14325) | [cvpr](https://openaccess.thecvf.com/content/CVPR2025/papers/Guo_Dinomaly_The_Less_Is_More_Philosophy_in_Multi-Class_Unsupervised_Anomaly_CVPR_2025_paper.pdf)
@@ -28,7 +27,7 @@ Give me a ⭐️ if you like it.
  
  - 07.2025: Spoil alert: We will come back with Dinomly-2😛
 
- - 07.2025: To be integrated in Intel open-edge [Anomalib](https://github.com/open-edge-platform/anomalib/pull/2835) in v2.1.0! Great thanks to the contributors. Anomalib is a comprehensive library for benchmarking, developing and deploying deep learning anomaly detection algorithms.
+ - 07.2025: Dinomaly has been integrated in Intel open-edge [Anomalib](https://github.com/open-edge-platform/anomalib) in v2.1.0. Great thanks to the contributors for the nice reproduction and integration. Anomalib is a comprehensive library for benchmarking, developing and deploying deep learning anomaly detection algorithms.
 
 
 ## Abstract
