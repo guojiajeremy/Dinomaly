@@ -3,17 +3,14 @@
 # Dinomaly: The Less Is More Philosophy in Multi-Class Unsupervised Anomaly Detection
 
 ### CVPR 2025 
-[arxiv](https://arxiv.org/abs/2405.14325) | [cvpr](https://openaccess.thecvf.com/content/CVPR2025/papers/Guo_Dinomaly_The_Less_Is_More_Philosophy_in_Multi-Class_Unsupervised_Anomaly_CVPR_2025_paper.pdf)
+[![arXiv](https://img.shields.io/badge/arXiv-2405.14325-b31b1b.svg?style=plastic)](https://arxiv.org/abs/2405.14325) [![CVF](https://img.shields.io/badge/CVPR-Paper-b4c7e7.svg?style=plastic)]([https://arxiv.org/abs/2405.14325](https://openaccess.thecvf.com/content/CVPR2025/papers/Guo_Dinomaly_The_Less_Is_More_Philosophy_in_Multi-Class_Unsupervised_Anomaly_CVPR_2025_paper.pdf))
 
 </div>
 
 PyTorch Implementation of CVPR 2025
-"Dinomaly: The Less Is More Philosophy in Multi-Class Unsupervised Anomaly Detection".
+"Dinomaly: The Less Is More Philosophy in Multi-Class Unsupervised Anomaly Detection". The first multi-class UAD model that can compete with single-class SOTAs !!!
 
-
-The first multi-class UAD model that can compete with single-class SOTAs !!!
-
-Give me a ⭐️ if you like it.
+**Give me a ⭐️ if you like it.**
 
 ![fig1](https://github.com/user-attachments/assets/0bb2e555-656f-4218-b93b-844b5894e429)
 
@@ -28,6 +25,8 @@ Give me a ⭐️ if you like it.
  - 07.2025: Spoil alert: We will come back with Dinomly-2😛
 
  - 07.2025: Dinomaly has been integrated in Intel open-edge [Anomalib](https://github.com/open-edge-platform/anomalib) in v2.1.0. Great thanks to the contributors for the nice reproduction and integration. Anomalib is a comprehensive library for benchmarking, developing and deploying deep learning anomaly detection algorithms.
+
+ - 08.2025: I have sucessfully implement [DINOv3](https://ai.meta.com/dinov3/) on Dinomaly. The pixel-level performance is much better, with slightly lower image-level performance. DINOv3-Large on MVTecAD: I-Auroc:0.9970, P-AUROC:0.9878, P-AP:0.7422, P-F1:0.7184, P-AUPRO:0.9580. Due to DINOv3 requiring newer versions of Python (>3.10) and PyTorch (>2.7), it is not provided in this repository. You can refer to [cnlab](https://github.com/cnulab)'s forked [branch](https://github.com/cnulab/Dinomaly). Great thanks!
 
 
 ## Abstract
