@@ -3,7 +3,7 @@
 # Dinomaly: The Less Is More Philosophy in Multi-Class Unsupervised Anomaly Detection
 
 ### CVPR 2025 
-[![arXiv](https://img.shields.io/badge/arXiv-2405.14325-b31b1b.svg?style=plastic)](https://arxiv.org/abs/2405.14325) [![CVF](https://img.shields.io/badge/CVPR-Paper-b4c7e7.svg?style=plastic)]([https://arxiv.org/abs/2405.14325](https://openaccess.thecvf.com/content/CVPR2025/papers/Guo_Dinomaly_The_Less_Is_More_Philosophy_in_Multi-Class_Unsupervised_Anomaly_CVPR_2025_paper.pdf))
+[![arXiv](https://img.shields.io/badge/arXiv-2405.14325-b31b1b.svg?style=plastic)](https://arxiv.org/abs/2405.14325) [![CVF](https://img.shields.io/badge/CVPR-Paper-b4c7e7.svg?style=plastic)](https://openaccess.thecvf.com/content/CVPR2025/html/Guo_Dinomaly_The_Less_Is_More_Philosophy_in_Multi-Class_Unsupervised_Anomaly_CVPR_2025_paper.html)
 
 </div>
 
