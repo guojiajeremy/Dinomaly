@@ -16,22 +16,25 @@ PyTorch Implementation of CVPR 2025
 
 
 ## News
- - 05.2024: Arxiv preprint and github code released🚀
+ - _05.2024_: Arxiv preprint and github code released🚀
  
- - 09.2024: Rejected by NeurIPS 2024 with 5 positive scores and no negative score, because "AC: lack of novelty"😭. Wish me good luck.
+ - _09.2024_: Rejected by NeurIPS 2024 with 5 positive scores and no negative score, because "AC: lack of novelty"😭. Wish me good luck.
  
- - 02.2025: Accepted by CVPR 2025🎉
+ - _02.2025_: Accepted by CVPR 2025🎉
  
- - 07.2025: Spoil alert: We will come back with Dinomly-2😛
+ - _07.2025_: Spoil alert: We will come back with Dinomly-2😛
 
- - 07.2025: Dinomaly has been integrated in Intel open-edge [Anomalib](https://github.com/open-edge-platform/anomalib) in v2.1.0. Great thanks to the contributors for the nice reproduction and integration. Anomalib is a comprehensive library for benchmarking, developing and deploying deep learning anomaly detection algorithms.
+ - _07.2025_: Dinomaly has been integrated in Intel open-edge [Anomalib](https://github.com/open-edge-platform/anomalib) in v2.1.0. Great thanks to the contributors for the nice reproduction and integration. Anomalib is a comprehensive library for benchmarking, developing and deploying deep learning anomaly detection algorithms.
 
- - 08.2025: I have sucessfully implement [DINOv3](https://ai.meta.com/dinov3/) on Dinomaly. The pixel-level performance is much better, with slightly lower image-level performance. DINOv3-Large on MVTecAD: I-Auroc:0.9970, P-AUROC:0.9878, P-AP:0.7422, P-F1:0.7184, P-AUPRO:0.9580. Due to DINOv3 requiring newer versions of Python (>3.10) and PyTorch (>2.7), it is not provided in this repository. You can refer to [cnlab](https://github.com/cnulab)'s forked [branch](https://github.com/cnulab/Dinomaly). Great thanks!
+ - _08.2025_: I have sucessfully implement [DINOv3](https://ai.meta.com/dinov3/) on Dinomaly. The pixel-level performance is much better, with slightly lower image-level performance. DINOv3-Large on MVTecAD: I-Auroc:0.9970, P-AUROC:0.9878, P-AP:0.7422, P-F1:0.7184, P-AUPRO:0.9580. Due to DINOv3 requiring newer versions of Python (>3.10) and PyTorch (>2.7), it is not provided in this repository. You can refer to [cnlab](https://github.com/cnulab)'s forked [branch](https://github.com/cnulab/Dinomaly). Great thanks!
 
+ - _**10.2025**_: We are thrilled to present the extended version of Dinomaly, now evolved into [**Dinomaly2**](https://arxiv.org/abs/2510.17611)!!! We introduce the first **unified framework** for **full-spectrum** UAD that seamlessly handles diverse _data modalities_ (2D, multi-view, RGB-3D, RGB-IR), _task settings_ (single-class, multi-class, inference-unified multi-class, few-shot) and application domains (industrial, biological, outdoor). Of course, Dinomaly2 achieves unprecedented UAD performance. Check it out😎
+   <img width="4727" height="3166" alt="fig1" src="https://github.com/user-attachments/assets/dde44a53-eaad-4175-8dc2-205e4c6f71e7" />
 
+   
 ## Abstract
 
-Recent studies highlighted a practical setting of unsupervised anomaly detection (UAD) that builds a unified model for multi-class images. Despite various advancements addressing this challenging task, the detection performance under the multi-class setting still lags far behind state-of-the-art class-separated models. Our research aims to bridge this substantial performance gap. In this paper, we introduce a minimalistic reconstruction-based anomaly detection framework, namely Dinomaly, which leverages pure Transformer architectures without relying on complex designs, additional modules, or specialized tricks. Given this powerful framework consisted of only Attentions and MLPs, we found four simple components that are essential to multi-class anomaly detection: (1) Foundation Transformers that extracts universal and discriminative features, (2) Noisy Bottleneck where pre-existing Dropouts do all the noise injection tricks, (3) Linear Attention that naturally cannot focus, and (4) Loose Reconstruction that does not force layer-to-layer and point-by-point reconstruction. Extensive experiments are conducted across popular anomaly detection benchmarks including MVTec-AD, VisA, and Real-IAD. Our proposed Dinomaly achieves impressive image-level AUROC of 99.6%, 98.7%, and 89.3% on the three datasets respectively (99.8%, 98.9%, 90.1% with ViT-L), which is not only superior to state-of-the-art multi-class UAD methods, but also achieves the most advanced class-separated UAD records.
+Recent studies highlighted a practical setting of unsupervised anomaly detection (UAD) that builds a unified model for multi-class images. Despite various advancements addressing this challenging task, the detection performance under the multi-class setting still lags far behind state-of-the-art class-separated models. Our research aims to bridge this substantial performance gap. In this paper, we introduce a minimalistic reconstruction-based anomaly detection framework, namely Dinomaly, which leverages pure Transformer architectures without relying on complex designs, additional modules, or specialized tricks. Given this powerful framework consisted of only Attentions and MLPs, we found four simple components that are essential to multi-class anomaly detection: (1) Foundation Transformers that extracts universal and discriminative features, (2) Noisy Bottleneck where pre-existing Dropouts do all the noise injection tricks, (3) Linear Attention that naturally cannot focus, and (4) Loose Reconstruction that does not force layer-to-layer and point-by-point reconstruction. Extensive experiments are conducted across popular anomaly detection benchmarks including MVTec-AD, VisA, and Real-IAD. Our proposed Dinomaly achieves impressive image-level AUROC of 99.6%, 98.7%, and 89.3% on the three datasets respectively (99.8%, 98.9%, 90.1% with ViT-L), which is not only superior to state-of-the-art multi-class UAD methods, but also achieves the most advanced class-separated UAD records. 
 
 ## 1. Environments
 
