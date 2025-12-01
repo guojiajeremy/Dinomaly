@@ -200,5 +200,13 @@ If you encounter Loss=NaN during training on other datasets (very rare in common
   pages={20405--20415},
   year={2025}
 }
+
+@article{guo2025one,
+  title={One Dinomaly2 Detect Them All: A Unified Framework for Full-Spectrum Unsupervised Anomaly Detection},
+  author={Guo, Jia and Lu, Shuai and Fan, Lei and Li, Zelin and Di, Donglin and Song, Yang and Zhang, Weihang and Zhu, Wenbing and Yan, Hong and Chen, Fang and Li, Huiqi and Liao, Hongen},
+  journal={arXiv preprint arXiv:2510.17611},
+  year={2025}
+}
+
 ```
 
