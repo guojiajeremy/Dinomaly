@@ -185,6 +185,12 @@ The difference between these two binarization approaches is that gt[gt>0]=1 may 
 
 We think gt[gt>0]=1 is a more reasonable choice. It can be seen as max pooling, so that in the down-sampled GT map, any position that corresponds to a region containing at least one anomaly pixel in the original map is marked as anomalous. If an anomaly region is extremely small in the original image (say 2 pixels), gt[gt>0.5]=1 will erase it while gt[gt>0]=1 can keep it.
 
+## Loss NaN
+If you encounter Loss=NaN during training on other datasets (very rare in common datasets), simply add a small eps (1e-6 by default) in the LinearAttention2 module:
+
+`        z = 1.0 / (torch.einsum('...sd,...d->...s', q, k.sum(dim=-2)) + self.eps)
+`
+
 ## Citation
 ```
 @inproceedings{guo2025dinomaly,
