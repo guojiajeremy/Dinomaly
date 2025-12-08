@@ -22,7 +22,7 @@ PyTorch Implementation of CVPR 2025
  
  - _02.2025_: Accepted by CVPR 2025🎉
  
- - _07.2025_: Spoil alert: We will come back with Dinomly-2😛
+ - _07.2025_: Spoil alert: We will come back with Dinomaly2😛
 
  - _07.2025_: Dinomaly has been integrated in Intel open-edge [Anomalib](https://github.com/open-edge-platform/anomalib) in v2.1.0. Great thanks to the contributors for the nice reproduction and integration. Anomalib is a comprehensive library for benchmarking, developing and deploying deep learning anomaly detection algorithms.
 
@@ -131,8 +131,13 @@ python dinomaly_visa_sep.py --data_path ../VisA_pytorch/1cls
 python dinomaly_realiad_sep.py --data_path ../Real-IAD
 ```
 
-Training Unstability: The optimization can be unstable with loss spikes (e.g. ...0.05, 0.04, 0.04, **0.32**, **0.23**, 0.08...)
-, which can be harmful to performance. This occurs very very rare. If you see such loss spikes during training, consider change a random seed.
+
+### Trained model weights
+| Dataset                | Model | Resolution  | Iterations  | Download        |
+|----------------------|------------|------------|-------|--------------------|
+| MVTec-AD | DINOv2-B | R448-C392 |20,000 | [Google Drive](https://drive.google.com/file/d/1UvpX0hTZ48FYTxlrDwYa-NZYZcFwjc8r/view?usp=sharing)  |
+| VisA | DINOv2-B | R448-C392 | 20,000 | [Google Drive](https://drive.google.com/file/d/14hkDRPQfcEHKCQbAzAyfY-iFKMWYFD77/view?usp=sharing) |
+
 
 ## Results
 
