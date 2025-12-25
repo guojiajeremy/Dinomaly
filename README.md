@@ -13,6 +13,7 @@ PyTorch Implementation of CVPR 2025
 **Give me a ⭐️ if you like it.**
 
 ![fig1](https://github.com/user-attachments/assets/0bb2e555-656f-4218-b93b-844b5894e429)
+<img width="3824" height="1219" alt="fig2_2" src="https://github.com/user-attachments/assets/d3c5169a-3c15-4828-92b4-6f13d142d2ce" />
 
 
 ## News
