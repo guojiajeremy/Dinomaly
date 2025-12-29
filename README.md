@@ -136,8 +136,8 @@ python dinomaly_realiad_sep.py --data_path ../Real-IAD
 ### Trained model weights
 | Dataset                | Model | Resolution  | Iterations  | Download        |
 |----------------------|------------|------------|-------|--------------------|
-| MVTec-AD | DINOv2-B | R448-C392 |20,000 | [Google Drive](https://drive.google.com/file/d/1UvpX0hTZ48FYTxlrDwYa-NZYZcFwjc8r/view?usp=sharing)  |
-| VisA | DINOv2-B | R448-C392 | 20,000 | [Google Drive](https://drive.google.com/file/d/14hkDRPQfcEHKCQbAzAyfY-iFKMWYFD77/view?usp=sharing) |
+| MVTec-AD | Dinomaly-B | R448-C392 |20,000 | [Google Drive](https://drive.google.com/file/d/1UvpX0hTZ48FYTxlrDwYa-NZYZcFwjc8r/view?usp=sharing)  |
+| VisA | Dinomaly-B | R448-C392 | 20,000 | [Google Drive](https://drive.google.com/file/d/14hkDRPQfcEHKCQbAzAyfY-iFKMWYFD77/view?usp=sharing) |
 
 
 ## Results
