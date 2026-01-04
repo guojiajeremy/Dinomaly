@@ -10,7 +10,9 @@
 PyTorch Implementation of CVPR 2025
 "Dinomaly: The Less Is More Philosophy in Multi-Class Unsupervised Anomaly Detection". The first multi-class UAD model that can compete with single-class SOTAs !!!
 
-**Give me a ⭐️ if you like it.**
+- **Give me a ⭐️ if you like it.**
+
+- This project is released under **Apache-2.0 License**. If your method is based on Dinomaly, please acknowledge it in your work (papers, products, patents, competitions, etc.), preferably as a "preliminary" section.
 
 ![fig1](https://github.com/user-attachments/assets/0bb2e555-656f-4218-b93b-844b5894e429)
 <img width="3824" height="1219" alt="fig2_2" src="https://github.com/user-attachments/assets/d3c5169a-3c15-4828-92b4-6f13d142d2ce" />
