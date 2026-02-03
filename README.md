@@ -12,7 +12,7 @@ PyTorch Implementation of CVPR 2025
 
 - **Give me a ⭐️ if you like it.**
 
-- This project is released under **Apache-2.0 License**. If your method is based on Dinomaly, please acknowledge it in your work (papers, products, patents, competitions, etc.), preferably as a "preliminary" section.
+- This project is released under **Apache-2.0 License**. If your method is based on Dinomaly, please acknowledge it in your work (papers, products, patents, competitions, etc.), preferably as a "Preliminary" section.
 
 ![fig1](https://github.com/user-attachments/assets/0bb2e555-656f-4218-b93b-844b5894e429)
 <img width="3824" height="1219" alt="fig2_2" src="https://github.com/user-attachments/assets/d3c5169a-3c15-4828-92b4-6f13d142d2ce" />
@@ -136,10 +136,12 @@ python dinomaly_realiad_sep.py --data_path ../Real-IAD
 
 
 ### Trained model weights
-| Dataset                | Model | Resolution  | Iterations  | Download        |
-|----------------------|------------|------------|-------|--------------------|
-| MVTec-AD | Dinomaly-B | R448-C392 |20,000 | [Google Drive](https://drive.google.com/file/d/1UvpX0hTZ48FYTxlrDwYa-NZYZcFwjc8r/view?usp=sharing)  |
-| VisA | Dinomaly-B | R448-C392 | 20,000 | [Google Drive](https://drive.google.com/file/d/14hkDRPQfcEHKCQbAzAyfY-iFKMWYFD77/view?usp=sharing) |
+2x default training iterations for better performance.
+| Dataset                | Model | Resolution  | Iterations| I-AUROC  | Download        |
+|----------------------|------------|------------|-------|--------------------|-----------|
+| MVTec-AD | Dinomaly-B | R448-C392 |20,000 | 99.7 | [Google Drive](https://drive.google.com/file/d/1UvpX0hTZ48FYTxlrDwYa-NZYZcFwjc8r/view?usp=sharing)  |
+| VisA | Dinomaly-B | R448-C392 | 20,000 | 98.9 | [Google Drive](https://drive.google.com/file/d/14hkDRPQfcEHKCQbAzAyfY-iFKMWYFD77/view?usp=sharing) |
+| Real-IAD | Dinomaly-B | R448-C392 | 100,000 | 89.7 | [Google Drive](https://drive.google.com/file/d/12EZTEtolifMRdpFM8Uoa1cLdVdmAbDSS/view?usp=sharing) |
 
 
 ## Results
