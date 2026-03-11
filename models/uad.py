@@ -115,7 +115,6 @@ class ViTill_test(nn.Module):
             encoder: MultiEncoder,#must be dino only encoder
             bottleneck,
             decoder,
-            fuse_layer_decoder=[[0, 1, 2, 3, 4, 5, 6, 7]],
             mask_neighbor_size=0,
             remove_class_token=False,
             encoder_require_grad_layer=[],
@@ -124,7 +123,6 @@ class ViTill_test(nn.Module):
         self.encoder = encoder
         self.bottleneck = bottleneck
         self.decoder = decoder
-        self.fuse_layer_decoder = fuse_layer_decoder
         self.remove_class_token = remove_class_token
         self.encoder_require_grad_layer = encoder_require_grad_layer
 
@@ -143,15 +141,12 @@ class ViTill_test(nn.Module):
         attn_mask = None
 
         de_list = []
-        for i, blk in enumerate(self.decoder):
-            x = blk(x)
-            de_list.append(x)
-        de_list = de_list[::-1]
+        
+        de_list = self.decoder(x)['dino']
 
-        de = [self.fuse_feature([de_list[idx] for idx in idxs]) for idxs in self.fuse_layer_decoder]
         side = en[0].shape[2]
 
-        de = [d.permute(0, 2, 1).reshape([x.shape[0], -1, side, side]).contiguous() for d in de]
+        de = [d.permute(0, 2, 1).reshape([x.shape[0], -1, side, side]).contiguous() for d in de_list]
         return en, de
 
     def fuse_feature(self, feat_list):

@@ -14,6 +14,7 @@ import random
 import os
 from torch.utils.data import DataLoader, ConcatDataset
 
+from models.multi_view.decoder.decoder import Decoder, Decoder_with_adapter
 from models.uad import ViTill_test
 from models import vit_encoder
 from models.multi_view.encoder import MultiEncoder, DinoExtractor
@@ -120,6 +121,8 @@ def train(item):
         "dino": {
             "fuse_layer_encoder": [[0, 1, 2, 3, 4, 5, 6, 7]],
             "target_layers": [2, 3, 4, 5, 6, 7, 8, 9],
+            "fuse_layer_decoder": [[0, 1, 2, 3, 4, 5, 6, 7]],
+            "adapter_layers": [[0, 0], [1, 1], [2, 2], [3, 3], [4, 4], [5, 5], [6, 6], [7, 7]],
             "backbone": "dinov2reg_vit_base_14",
             "n": 10,  # 至少保证 outputs[0..9] 可取
             "norm": True,
@@ -147,19 +150,27 @@ def train(item):
     bottleneck.append(bMlp(embed_dim, embed_dim * 4, embed_dim, drop=0.2))
     bottleneck = nn.ModuleList(bottleneck)
 
-    for i in range(8):
-        blk = VitBlock(
-            dim=embed_dim,
-            num_heads=num_heads,
-            mlp_ratio=4.0,
-            qkv_bias=True,
-            norm_layer=partial(nn.LayerNorm, eps=1e-8),
-            attn_drop=0.0,
-            attn=LinearAttention2,
-        )
+    #for i in range(8):
+    #    blk = VitBlock(
+    #        dim=embed_dim,
+    #        num_heads=num_heads,
+    #        mlp_ratio=4.0,
+    #        qkv_bias=True,
+    #        norm_layer=partial(nn.LayerNorm, eps=1e-8),
+    #        attn_drop=0.0,
+    #        attn=LinearAttention2,
+    #    )
 
-        decoder.append(blk)
-    decoder = nn.ModuleList(decoder)
+    #    decoder.append(blk)
+    decoder = Decoder_with_adapter(
+        encoder_configs=encoder_configs,
+        embed_dim=768,
+        num_heads=num_heads,
+        num_blocks=8,
+        mlp_ratio=4.0,
+        qkv_bias=True,
+        norm_eps=1e-8)
+    #decoder = nn.ModuleList(decoder)
 
     trainable = nn.ModuleList([bottleneck, decoder])
 

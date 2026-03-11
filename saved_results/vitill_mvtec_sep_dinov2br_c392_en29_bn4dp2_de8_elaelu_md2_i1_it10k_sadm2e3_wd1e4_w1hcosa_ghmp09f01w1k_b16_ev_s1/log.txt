@@ -267,3 +267,179 @@ bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9936, P-AP:0.8937, P
 [['bottle', 1.0, 0.9999999999999998, 0.9999999500000026, 0.9935675532664869, 0.8937049493101934, 0.8388312882393183, 0.9778138649235398]]
 Mean: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9936, P-AP:0.8937, P-F1:0.8388, P-AUPRO:0.9778
 =======
+cuda:0
+bottle
+train image number:209
+iter [99/5000], loss:0.0133
+iter [199/5000], loss:0.0072
+iter [299/5000], loss:0.0051
+iter [399/5000], loss:0.0045
+iter [499/5000], loss:0.0042
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9923, P-AP:0.8835, P-F1:0.8267, P-AUPRO:0.9752
+iter [599/5000], loss:0.0039
+iter [699/5000], loss:0.0037
+iter [799/5000], loss:0.0036
+iter [899/5000], loss:0.0034
+iter [999/5000], loss:0.0080
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9920, P-AP:0.8757, P-F1:0.8247, P-AUPRO:0.9741
+iter [1099/5000], loss:0.0047
+iter [1199/5000], loss:0.0039
+iter [1299/5000], loss:0.0039
+iter [1399/5000], loss:0.0036
+iter [1499/5000], loss:0.0035
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9931, P-AP:0.8840, P-F1:0.8377, P-AUPRO:0.9693
+iter [1599/5000], loss:0.0034
+iter [1699/5000], loss:0.0033
+iter [1799/5000], loss:0.0033
+iter [1899/5000], loss:0.0032
+iter [1999/5000], loss:0.0031
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9935, P-AP:0.8911, P-F1:0.8416, P-AUPRO:0.9752
+iter [2099/5000], loss:0.0031
+iter [2199/5000], loss:0.0030
+iter [2299/5000], loss:0.0030
+iter [2399/5000], loss:0.0030
+iter [2499/5000], loss:0.0029
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9934, P-AP:0.8902, P-F1:0.8429, P-AUPRO:0.9683
+iter [2599/5000], loss:0.0029
+iter [2699/5000], loss:0.0029
+iter [2799/5000], loss:0.0029
+iter [2899/5000], loss:0.0028
+iter [2999/5000], loss:0.0028
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9935, P-AP:0.8934, P-F1:0.8450, P-AUPRO:0.9724
+iter [3099/5000], loss:0.0028
+iter [3199/5000], loss:0.0028
+iter [3299/5000], loss:0.0027
+iter [3399/5000], loss:0.0027
+iter [3499/5000], loss:0.0028
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9937, P-AP:0.8938, P-F1:0.8465, P-AUPRO:0.9685
+iter [3599/5000], loss:0.0027
+iter [3699/5000], loss:0.0027
+iter [3799/5000], loss:0.0027
+iter [3899/5000], loss:0.0027
+iter [3999/5000], loss:0.0027
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9936, P-AP:0.8930, P-F1:0.8464, P-AUPRO:0.9621
+iter [4099/5000], loss:0.0027
+iter [4199/5000], loss:0.0026
+iter [4299/5000], loss:0.0026
+iter [4399/5000], loss:0.0026
+iter [4499/5000], loss:0.0026
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9937, P-AP:0.8925, P-F1:0.8458, P-AUPRO:0.9770
+iter [4599/5000], loss:0.0026
+iter [4699/5000], loss:0.0026
+iter [4799/5000], loss:0.0026
+iter [4899/5000], loss:0.0026
+iter [4999/5000], loss:0.0026
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9937, P-AP:0.8942, P-F1:0.8469, P-AUPRO:0.9775
+[['bottle', 1.0, 0.9999999999999998, 0.9999999500000026, 0.9937176226645791, 0.8941939840844192, 0.8469339154977427, 0.9774664170177088]]
+Mean: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9937, P-AP:0.8942, P-F1:0.8469, P-AUPRO:0.9775
+cuda:0
+bottle
+train image number:209
+cuda:0
+bottle
+train image number:209
+cuda:0
+bottle
+train image number:209
+cuda:0
+bottle
+train image number:209
+iter [99/5000], loss:0.0129
+iter [199/5000], loss:0.0070
+iter [299/5000], loss:0.0051
+iter [399/5000], loss:0.0046
+iter [499/5000], loss:0.0042
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9920, P-AP:0.8835, P-F1:0.8276, P-AUPRO:0.9658
+iter [599/5000], loss:0.0039
+iter [699/5000], loss:0.0037
+iter [799/5000], loss:0.0037
+iter [899/5000], loss:0.0035
+iter [999/5000], loss:0.0062
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9923, P-AP:0.8760, P-F1:0.8253, P-AUPRO:0.9758
+iter [1099/5000], loss:0.0044
+iter [1199/5000], loss:0.0040
+iter [1299/5000], loss:0.0038
+iter [1399/5000], loss:0.0036
+iter [1499/5000], loss:0.0035
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9929, P-AP:0.8829, P-F1:0.8363, P-AUPRO:0.9704
+iter [1599/5000], loss:0.0042
+iter [1699/5000], loss:0.0035
+iter [1799/5000], loss:0.0034
+iter [1899/5000], loss:0.0033
+iter [1999/5000], loss:0.0032
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9933, P-AP:0.8875, P-F1:0.8390, P-AUPRO:0.9745
+iter [2099/5000], loss:0.0032
+iter [2199/5000], loss:0.0031
+iter [2299/5000], loss:0.0030
+iter [2399/5000], loss:0.0030
+iter [2499/5000], loss:0.0030
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9934, P-AP:0.8894, P-F1:0.8407, P-AUPRO:0.9610
+iter [2599/5000], loss:0.0030
+iter [2699/5000], loss:0.0030
+iter [2799/5000], loss:0.0030
+iter [2899/5000], loss:0.0029
+iter [2999/5000], loss:0.0029
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9935, P-AP:0.8904, P-F1:0.8411, P-AUPRO:0.9550
+iter [3099/5000], loss:0.0029
+iter [3199/5000], loss:0.0028
+iter [3299/5000], loss:0.0028
+iter [3399/5000], loss:0.0028
+iter [3499/5000], loss:0.0028
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9936, P-AP:0.8915, P-F1:0.8424, P-AUPRO:0.9760
+iter [3599/5000], loss:0.0028
+iter [3699/5000], loss:0.0028
+iter [3799/5000], loss:0.0028
+iter [3899/5000], loss:0.0027
+iter [3999/5000], loss:0.0027
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9936, P-AP:0.8915, P-F1:0.8421, P-AUPRO:0.9753
+iter [4099/5000], loss:0.0027
+iter [4199/5000], loss:0.0027
+iter [4299/5000], loss:0.0027
+iter [4399/5000], loss:0.0027
+iter [4499/5000], loss:0.0027
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9937, P-AP:0.8928, P-F1:0.8428, P-AUPRO:0.9756
+iter [4599/5000], loss:0.0027
+iter [4699/5000], loss:0.0027
+iter [4799/5000], loss:0.0027
+iter [4899/5000], loss:0.0027
+iter [4999/5000], loss:0.0026
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9937, P-AP:0.8939, P-F1:0.8427, P-AUPRO:0.9751
+[['bottle', 1.0, 0.9999999999999998, 0.9999999500000026, 0.9936853973614199, 0.8939085857704407, 0.8427238397785191, 0.9750540227222579]]
+Mean: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9937, P-AP:0.8939, P-F1:0.8427, P-AUPRO:0.9751
+cuda:0
+bottle
+cuda:0
+bottle
+train image number:209
+cuda:0
+bottle
+train image number:209
+iter [99/5000], loss:0.3047
+iter [199/5000], loss:0.2804
+iter [299/5000], loss:0.2760
+iter [399/5000], loss:0.1398
+iter [499/5000], loss:0.0516
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9898, P-AP:0.8570, P-F1:0.7995, P-AUPRO:0.9702
+iter [599/5000], loss:0.0349
+cuda:0
+bottle
+train image number:209
+iter [99/5000], loss:0.0144
+iter [199/5000], loss:0.0064
+iter [299/5000], loss:0.0051
+iter [399/5000], loss:0.0042
+iter [499/5000], loss:0.0038
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9914, P-AP:0.8757, P-F1:0.8147, P-AUPRO:0.9742
+iter [599/5000], loss:0.0035
+iter [699/5000], loss:0.0034
+iter [799/5000], loss:0.0032
+iter [899/5000], loss:0.0031
+iter [999/5000], loss:0.0027
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9918, P-AP:0.8751, P-F1:0.8156, P-AUPRO:0.9762
+iter [1099/5000], loss:0.0027
+iter [1199/5000], loss:0.0026
+iter [1299/5000], loss:0.0027
+iter [1399/5000], loss:0.0026
+iter [1499/5000], loss:0.0025
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9920, P-AP:0.8754, P-F1:0.8178, P-AUPRO:0.9757
+iter [1599/5000], loss:0.0024
