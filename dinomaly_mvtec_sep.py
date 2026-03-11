@@ -3,6 +3,8 @@
 # Press ⌃R to execute it or replace it with your code.
 # Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
 
+import math
+
 import torch
 import torch.nn as nn
 from dataset import get_data_transforms, get_strong_transforms
@@ -79,7 +81,7 @@ def train(item):
     total_iters = 5000
     batch_size = 16
     image_size = 448
-    crop_size = 392
+    crop_size = 448
 
     data_transform, gt_transform = get_data_transforms(image_size, crop_size)
 
@@ -120,9 +122,16 @@ def train(item):
     bottleneck = nn.ModuleList(bottleneck)
 
     for i in range(8):
-        blk = VitBlock(dim=embed_dim, num_heads=num_heads, mlp_ratio=4.,
-                       qkv_bias=True, norm_layer=partial(nn.LayerNorm, eps=1e-8), attn_drop=0.,
-                       attn=LinearAttention2)
+        blk = VitBlock(
+            dim=embed_dim,
+            num_heads=num_heads,
+            mlp_ratio=4.,
+            qkv_bias=True,
+            norm_layer=partial(nn.LayerNorm, eps=1e-8),
+            attn_drop=0.,
+            attn=LinearAttention2
+        )
+
         decoder.append(blk)
     decoder = nn.ModuleList(decoder)
 
@@ -170,7 +179,7 @@ def train(item):
             loss_list.append(loss.item())
             lr_scheduler.step()
 
-            if (it + 1) % 5000 == 0:
+            if (it + 1) % 1000 == 0:
                 results = evaluation_batch(model, test_dataloader, device, max_ratio=0.01, resize_mask=256)
                 auroc_sp, ap_sp, f1_sp, auroc_px, ap_px, f1_px, aupro_px = results
 
@@ -202,13 +211,13 @@ if __name__ == '__main__':
                         default='vitill_mvtec_sep_dinov2br_c392_en29_bn4dp2_de8_elaelu_md2_i1_it10k_sadm2e3_wd1e4_w1hcosa_ghmp09f01w1k_b16_ev_s1')
     args = parser.parse_args()
 
-    item_list = ['carpet', 'grid', 'leather', 'tile', 'wood', 'bottle', 'cable', 'capsule',
-                 'hazelnut', 'metal_nut', 'pill', 'screw', 'toothbrush', 'transistor', 'zipper']
-    # item_list = ['leather']
+    #item_list = ['carpet', 'grid', 'leather', 'tile', 'wood', 'bottle', 'cable', 'capsule',
+    #             'hazelnut', 'metal_nut', 'pill', 'screw', 'toothbrush', 'transistor', 'zipper']
+    item_list = ['bottle']
     logger = get_logger(args.save_name, os.path.join(args.save_dir, args.save_name))
     print_fn = logger.info
 
-    device = 'cuda:1' if torch.cuda.is_available() else 'cpu'
+    device = 'cuda:0' if torch.cuda.is_available() else 'cpu'
     print_fn(device)
 
     result_list = []
