@@ -14,3 +14,4 @@ torchvision==0.13.0+cu113
 tqdm==4.64.1
 ptflops==0.7
 timm==0.9.12
+transformers
