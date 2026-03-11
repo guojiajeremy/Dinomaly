@@ -80,7 +80,7 @@ def train(item):
     setup_seed(1)
     print_fn(item)
     total_iters = 5000
-    batch_size = 16
+    batch_size = 4
     image_size = 518
     crop_size = 518
 
@@ -92,8 +92,10 @@ def train(item):
     train_data = ImageFolder(root=train_path, transform=data_transform)
     test_data = MVTecDataset(root=test_path, transform=data_transform, gt_transform=gt_transform, phase="test")
     train_dataloader = torch.utils.data.DataLoader(train_data, batch_size=batch_size, shuffle=True, num_workers=4,
-                                                   drop_last=True)
-    test_dataloader = torch.utils.data.DataLoader(test_data, batch_size=batch_size, shuffle=False, num_workers=4)
+                                                   drop_last=True,  persistent_workers=True,   # 关键
+                                                   prefetch_factor=2)
+    test_dataloader = torch.utils.data.DataLoader(test_data, batch_size=batch_size, shuffle=False, num_workers=4,     persistent_workers=True,   # 关键
+                                                  prefetch_factor=2)
 
     # encoder_name = 'dinov2reg_vit_small_14'
     encoder_name = 'dinov2reg_vit_base_14'
