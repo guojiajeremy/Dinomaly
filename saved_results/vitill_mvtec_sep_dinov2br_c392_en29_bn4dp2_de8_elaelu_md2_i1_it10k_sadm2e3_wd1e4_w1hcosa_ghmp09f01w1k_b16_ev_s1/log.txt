@@ -182,3 +182,7 @@ iter [799/5000], loss:0.0033
 iter [899/5000], loss:0.0031
 iter [999/5000], loss:0.0031
 bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9927, P-AP:0.8829, P-F1:0.8353, P-AUPRO:0.9758
+cuda:0
+bottle
+cuda:0
+bottle
