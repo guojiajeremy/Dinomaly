@@ -92,7 +92,7 @@ def train(item):
     setup_seed(1)
     print_fn(item)
     total_iters = 5000
-    batch_size = 4
+    batch_size = 8
     image_size = 518
     crop_size = 518
 
@@ -115,8 +115,6 @@ def train(item):
     # encoder_name = 'dinov2reg_vit_large_14'
 
     target_layers = [2, 3, 4, 5, 6, 7, 8, 9]
-    fuse_layer_encoder = [[0, 1, 2, 3, 4, 5, 6, 7]]
-    fuse_layer_decoder = [[0, 1, 2, 3, 4, 5, 6, 7]]
     encoder_configs = {
         "dino": {
             "fuse_layer_encoder": [[0, 1, 2, 3, 4, 5, 6, 7]],
@@ -188,7 +186,6 @@ def train(item):
         encoder=multi_encoder,
         bottleneck=bottleneck,
         decoder=decoder,
-        fuse_layer_decoder=fuse_layer_decoder,
     )
     model = model.to(device)
 
@@ -263,7 +260,7 @@ def train(item):
 
 
 if __name__ == "__main__":
-    os.environ["CUDA_LAUNCH_BLOCKING"] = "1"
+    # os.environ["CUDA_LAUNCH_BLOCKING"] = "1"  # 调试选项，会严重降低GPU性能，生产环境必须注释掉
     import argparse
 
     parser = argparse.ArgumentParser(description="")
