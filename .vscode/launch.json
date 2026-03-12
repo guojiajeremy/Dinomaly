@@ -11,9 +11,6 @@
       "args": [
 
       ],
-      "env": {
-        "PYTHONPATH": "${workspaceFolder}"
-      },
       "cwd": "${workspaceFolder}"
     }
   ]
