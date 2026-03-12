@@ -1,0 +1,29 @@
+device: cuda:0
+train images: 2528 | classes: can,fabric,fruit_jelly,rice,sheet_metal,vial,wallplugs,walnuts
+item_list: can,fabric,fruit_jelly,rice,sheet_metal,vial,wallplugs,walnuts
+[note] imagesize adjusted from 512 to 518 to match patch size 14.
+iter [505/10000], loss:0.1590
+can: I-Auroc:0.4630, I-AP:0.5461, I-F1:0.7143, P-AUROC:0.7545, P-AP:0.0001, P-F1:0.0003, P-AUPRO:0.3072
+fabric: I-Auroc:0.6785, I-AP:0.7226, I-F1:0.7759, P-AUROC:0.8344, P-AP:0.0857, P-F1:0.1993, P-AUPRO:0.5843
+fruit_jelly: I-Auroc:0.8817, I-AP:0.9568, I-F1:0.9231, P-AUROC:0.9655, P-AP:0.3524, P-F1:0.4379, P-AUPRO:0.7749
+rice: I-Auroc:0.7484, I-AP:0.8775, I-F1:0.8213, P-AUROC:0.9480, P-AP:0.4336, P-F1:0.5091, P-AUPRO:0.6859
+sheet_metal: I-Auroc:0.7389, I-AP:0.9237, I-F1:0.8867, P-AUROC:0.8789, P-AP:0.1459, P-F1:0.2877, P-AUPRO:0.4938
+vial: I-Auroc:0.9483, I-AP:0.9835, I-F1:0.9279, P-AUROC:0.9283, P-AP:0.3006, P-F1:0.3379, P-AUPRO:0.9233
+wallplugs: I-Auroc:0.4350, I-AP:0.5470, I-F1:0.7563, P-AUROC:0.8327, P-AP:0.0110, P-F1:0.0402, P-AUPRO:0.4666
+walnuts: I-Auroc:0.7726, I-AP:0.8168, I-F1:0.8308, P-AUROC:0.9561, P-AP:0.3597, P-F1:0.4881, P-AUPRO:0.6747
+Mean: I-Auroc:0.7083, I-AP:0.7968, I-F1:0.8295, P-AUROC:0.8873, P-AP:0.2111, P-F1:0.2876, P-AUPRO:0.6138
+Saving checkpoint: ./saved_results/mvtec2_uni_dinov2/model_iter_1000.pth
+iter [1010/10000], loss:0.0753
+iter [1515/10000], loss:0.0647
+can: I-Auroc:0.5040, I-AP:0.5678, I-F1:0.7171, P-AUROC:0.7682, P-AP:0.0001, P-F1:0.0003, P-AUPRO:0.3362
+fabric: I-Auroc:0.6955, I-AP:0.7504, I-F1:0.7798, P-AUROC:0.8434, P-AP:0.0952, P-F1:0.2113, P-AUPRO:0.5929
+fruit_jelly: I-Auroc:0.8583, I-AP:0.9554, I-F1:0.9032, P-AUROC:0.9634, P-AP:0.2900, P-F1:0.3837, P-AUPRO:0.7774
+rice: I-Auroc:0.7323, I-AP:0.8665, I-F1:0.8286, P-AUROC:0.9479, P-AP:0.4230, P-F1:0.5106, P-AUPRO:0.6870
+sheet_metal: I-Auroc:0.8264, I-AP:0.9487, I-F1:0.9137, P-AUROC:0.8761, P-AP:0.1586, P-F1:0.3075, P-AUPRO:0.4504
+vial: I-Auroc:0.9200, I-AP:0.9717, I-F1:0.9194, P-AUROC:0.9313, P-AP:0.3074, P-F1:0.3495, P-AUPRO:0.9286
+wallplugs: I-Auroc:0.4281, I-AP:0.5407, I-F1:0.7531, P-AUROC:0.8308, P-AP:0.0096, P-F1:0.0335, P-AUPRO:0.4313
+walnuts: I-Auroc:0.7706, I-AP:0.8139, I-F1:0.8283, P-AUROC:0.9554, P-AP:0.3413, P-F1:0.4757, P-AUPRO:0.6601
+Mean: I-Auroc:0.7169, I-AP:0.8019, I-F1:0.8304, P-AUROC:0.8896, P-AP:0.2031, P-F1:0.2840, P-AUPRO:0.6080
+Saving checkpoint: ./saved_results/mvtec2_uni_dinov2/model_iter_2000.pth
+iter [2020/10000], loss:0.0617
+iter [2525/10000], loss:0.0597

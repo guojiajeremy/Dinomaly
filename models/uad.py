@@ -265,6 +265,8 @@ class GroupWiseFeatureFuser(nn.Module):
             f"fusion={self.fusion_type})"
         )
 
+from models.multi_view.encoder.multi_encoder import MultiEncoder
+
 
 class ViTill(nn.Module):
     def __init__(
@@ -386,6 +388,48 @@ class ViTill(nn.Module):
         ] = mask
         return mask_all
 
+class ViTill_test(nn.Module):
+    def __init__(
+            self,
+            encoder: MultiEncoder,#must be dino only encoder
+            bottleneck,
+            decoder,
+            mask_neighbor_size=0,
+            remove_class_token=False,
+            encoder_require_grad_layer=[],
+    ) -> None:
+        super(ViTill_test, self).__init__()
+        self.encoder = encoder
+        self.bottleneck = bottleneck
+        self.decoder = decoder
+        self.remove_class_token = remove_class_token
+        self.encoder_require_grad_layer = encoder_require_grad_layer
+
+        if not hasattr(self.encoder, 'num_register_tokens'):
+            self.encoder.num_register_tokens = 0
+        self.mask_neighbor_size = mask_neighbor_size
+
+    def forward(self, x):
+        outputs  = self.encoder(x)
+        en = outputs['dino']['fused_group_feats'] #[B,C,H,w] to [B,C,num_tokens]
+        target = outputs['dino']['target']
+        x = target.reshape(target.shape[0], target.shape[1], -1).permute(0,2,1)#[B,C,H,w] to [B,num_tokens, C]
+        for i, blk in enumerate(self.bottleneck):
+            x = blk(x)
+
+        attn_mask = None
+
+        de_list = []
+        
+        de_list = self.decoder(x)['dino']
+
+        side = en[0].shape[2]
+
+        de = [d.permute(0, 2, 1).reshape([x.shape[0], -1, side, side]).contiguous() for d in de_list]
+        return en, de
+
+    def fuse_feature(self, feat_list):
+        return torch.stack(feat_list, dim=1).mean(dim=1)
 
 class ViTill_test(nn.Module):
     def __init__(

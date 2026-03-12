@@ -1,0 +1,892 @@
+device: cuda:0
+train images: 412 | classes: can
+groups_a: [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]]
+groups_b: [[5, 6, 7, 8, 9, 10, 11], [12, 13, 14, 15, 16, 17]]
+iter [103/2000], loss:0.3149
+iter [206/2000], loss:0.1037
+iter [309/2000], loss:0.0602
+iter [412/2000], loss:0.0407
+can: I-Auroc:0.6508, I-AP:0.6687, I-F1:0.7287, P-AUROC:0.5000, P-AP:0.0000, P-F1:0.0000, P-AUPRO:0.0000
+Mean: I-Auroc:0.6508, I-AP:0.6687, I-F1:0.7287, P-AUROC:0.5000, P-AP:0.0000, P-F1:0.0000, P-AUPRO:0.0000
+Saving checkpoint: ./saved_results/mvtec2_dual_donut_convnext/model_iter_500.pth
+iter [515/2000], loss:0.0341
+iter [618/2000], loss:0.0276
+iter [721/2000], loss:0.0260
+iter [824/2000], loss:0.0241
+iter [927/2000], loss:0.0219
+can: I-Auroc:0.6587, I-AP:0.6971, I-F1:0.7830, P-AUROC:0.5000, P-AP:0.0000, P-F1:0.0000, P-AUPRO:0.0000
+Mean: I-Auroc:0.6587, I-AP:0.6971, I-F1:0.7830, P-AUROC:0.5000, P-AP:0.0000, P-F1:0.0000, P-AUPRO:0.0000
+Saving checkpoint: ./saved_results/mvtec2_dual_donut_convnext/model_iter_1000.pth
+iter [1030/2000], loss:0.0203
+iter [1133/2000], loss:0.0193
+iter [1236/2000], loss:0.0191
+iter [1339/2000], loss:0.0180
+iter [1442/2000], loss:0.0175
+device: cuda:0
+train images: 412 | classes: can
+groups_a: [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]]
+groups_b: [[5, 6, 7, 8, 9, 10, 11], [12, 13, 14, 15, 16, 17]]
+iter [103/2000], loss:0.3149
+iter [206/2000], loss:0.1037
+iter [309/2000], loss:0.0602
+iter [412/2000], loss:0.0407
+can: I-Auroc:0.6511, I-AP:0.6691, I-F1:0.7287, P-AUROC:0.5000, P-AP:0.0000, P-F1:0.0000, P-AUPRO:0.0000
+Mean: I-Auroc:0.6511, I-AP:0.6691, I-F1:0.7287, P-AUROC:0.5000, P-AP:0.0000, P-F1:0.0000, P-AUPRO:0.0000
+Saving checkpoint: ./saved_results/mvtec2_dual_donut_convnext/model_iter_500.pth
+iter [515/2000], loss:0.0341
+iter [618/2000], loss:0.0276
+iter [721/2000], loss:0.0260
+iter [824/2000], loss:0.0241
+iter [927/2000], loss:0.0219
+device: cuda:0
+train images: 412 | classes: can
+groups_a: [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]]
+groups_b: [[5, 6, 7, 8, 9, 10, 11], [12, 13, 14, 15, 16, 17]]
+iter [103/2000], loss:0.3149
+iter [206/2000], loss:0.1037
+iter [309/2000], loss:0.0602
+iter [412/2000], loss:0.0407
+device: cuda:0
+train images: 412 | classes: can
+groups_a: [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]]
+groups_b: [[5, 6, 7, 8, 9, 10, 11], [12, 13, 14, 15, 16, 17]]
+iter [103/2000], loss:0.3149
+iter [206/2000], loss:0.1037
+iter [309/2000], loss:0.0602
+iter [412/2000], loss:0.0407
+can: I-Auroc:0.6508, I-AP:0.6687, I-F1:0.7287, P-AUROC:0.9557, P-AP:0.0140, P-F1:0.0365, P-AUPRO:0.4537
+Mean: I-Auroc:0.6508, I-AP:0.6687, I-F1:0.7287, P-AUROC:0.9557, P-AP:0.0140, P-F1:0.0365, P-AUPRO:0.4537
+Saving checkpoint: ./saved_results/mvtec2_dual_donut_convnext/model_iter_500.pth
+iter [515/2000], loss:0.0341
+iter [618/2000], loss:0.0276
+iter [721/2000], loss:0.0260
+iter [824/2000], loss:0.0241
+iter [927/2000], loss:0.0219
+can: I-Auroc:0.6587, I-AP:0.6971, I-F1:0.7830, P-AUROC:0.9380, P-AP:0.0101, P-F1:0.0227, P-AUPRO:0.4821
+Mean: I-Auroc:0.6587, I-AP:0.6971, I-F1:0.7830, P-AUROC:0.9380, P-AP:0.0101, P-F1:0.0227, P-AUPRO:0.4821
+Saving checkpoint: ./saved_results/mvtec2_dual_donut_convnext/model_iter_1000.pth
+iter [1030/2000], loss:0.0203
+iter [1133/2000], loss:0.0193
+device: cuda:0
+train images: 412 | classes: can
+groups_a: [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]]
+groups_b: [[5, 6, 7, 8, 9, 10, 11], [12, 13, 14, 15, 16, 17]]
+device: cuda:0
+train images: 412 | classes: can
+groups_a: [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]]
+groups_b: [[5, 6, 7, 8, 9, 10, 11], [12, 13, 14, 15, 16, 17]]
+iter [206/10000], loss:0.2164
+device: cuda:0
+train images: 412 | classes: can
+groups_a: [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]]
+groups_b: [[5, 6, 7, 8, 9, 10, 11], [12, 13, 14, 15, 16, 17]]
+device: cuda:0
+train images: 412 | classes: can
+groups_a: [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]]
+groups_b: [[5, 6, 7, 8, 9, 10, 11], [12, 13, 14, 15, 16, 17]]
+iter [103/10000], loss:0.3149
+iter [206/10000], loss:0.1054
+iter [309/10000], loss:0.0603
+iter [412/10000], loss:0.0414
+can: I-Auroc:0.6571, I-AP:0.6709, I-F1:0.7287, P-AUROC:0.9576, P-AP:0.0150, P-F1:0.0369, P-AUPRO:0.4640
+Mean: I-Auroc:0.6571, I-AP:0.6709, I-F1:0.7287, P-AUROC:0.9576, P-AP:0.0150, P-F1:0.0369, P-AUPRO:0.4640
+Saving checkpoint: ./saved_results/mvtec2_dual_donut_convnext/model_iter_500.pth
+iter [515/10000], loss:0.0332
+iter [618/10000], loss:0.0286
+iter [721/10000], loss:0.0266
+iter [824/10000], loss:0.0249
+iter [927/10000], loss:0.0226
+can: I-Auroc:0.6584, I-AP:0.6985, I-F1:0.7763, P-AUROC:0.9400, P-AP:0.0104, P-F1:0.0227, P-AUPRO:0.4676
+Mean: I-Auroc:0.6584, I-AP:0.6985, I-F1:0.7763, P-AUROC:0.9400, P-AP:0.0104, P-F1:0.0227, P-AUPRO:0.4676
+Saving checkpoint: ./saved_results/mvtec2_dual_donut_convnext/model_iter_1000.pth
+iter [1030/10000], loss:0.0210
+iter [1133/10000], loss:0.0207
+iter [1236/10000], loss:0.0217
+iter [1339/10000], loss:0.0199
+iter [1442/10000], loss:0.0192
+can: I-Auroc:0.6543, I-AP:0.6853, I-F1:0.7417, P-AUROC:0.9328, P-AP:0.0095, P-F1:0.0229, P-AUPRO:0.5147
+Mean: I-Auroc:0.6543, I-AP:0.6853, I-F1:0.7417, P-AUROC:0.9328, P-AP:0.0095, P-F1:0.0229, P-AUPRO:0.5147
+Saving checkpoint: ./saved_results/mvtec2_dual_donut_convnext/model_iter_1500.pth
+iter [1545/10000], loss:0.0187
+iter [1648/10000], loss:0.0187
+iter [1751/10000], loss:0.0184
+iter [1854/10000], loss:0.0177
+iter [1957/10000], loss:0.0179
+can: I-Auroc:0.6588, I-AP:0.6834, I-F1:0.7563, P-AUROC:0.9308, P-AP:0.0089, P-F1:0.0237, P-AUPRO:0.4786
+Mean: I-Auroc:0.6588, I-AP:0.6834, I-F1:0.7563, P-AUROC:0.9308, P-AP:0.0089, P-F1:0.0237, P-AUPRO:0.4786
+Saving checkpoint: ./saved_results/mvtec2_dual_donut_convnext/model_iter_2000.pth
+iter [2060/10000], loss:0.0177
+iter [2163/10000], loss:0.0175
+iter [2266/10000], loss:0.0180
+iter [2369/10000], loss:0.0170
+iter [2472/10000], loss:0.0163
+can: I-Auroc:0.6562, I-AP:0.6734, I-F1:0.7665, P-AUROC:0.9266, P-AP:0.0088, P-F1:0.0214, P-AUPRO:0.4781
+Mean: I-Auroc:0.6562, I-AP:0.6734, I-F1:0.7665, P-AUROC:0.9266, P-AP:0.0088, P-F1:0.0214, P-AUPRO:0.4781
+Saving checkpoint: ./saved_results/mvtec2_dual_donut_convnext/model_iter_2500.pth
+iter [2575/10000], loss:0.0162
+iter [2678/10000], loss:0.0154
+iter [2781/10000], loss:0.0163
+iter [2884/10000], loss:0.0151
+iter [2987/10000], loss:0.0146
+can: I-Auroc:0.6524, I-AP:0.6537, I-F1:0.7436, P-AUROC:0.9220, P-AP:0.0076, P-F1:0.0176, P-AUPRO:0.4846
+Mean: I-Auroc:0.6524, I-AP:0.6537, I-F1:0.7436, P-AUROC:0.9220, P-AP:0.0076, P-F1:0.0176, P-AUPRO:0.4846
+Saving checkpoint: ./saved_results/mvtec2_dual_donut_convnext/model_iter_3000.pth
+iter [3090/10000], loss:0.0147
+iter [3193/10000], loss:0.0147
+iter [3296/10000], loss:0.0143
+iter [3399/10000], loss:0.0148
+can: I-Auroc:0.6507, I-AP:0.6558, I-F1:0.7395, P-AUROC:0.9206, P-AP:0.0083, P-F1:0.0193, P-AUPRO:0.4997
+Mean: I-Auroc:0.6507, I-AP:0.6558, I-F1:0.7395, P-AUROC:0.9206, P-AP:0.0083, P-F1:0.0193, P-AUPRO:0.4997
+Saving checkpoint: ./saved_results/mvtec2_dual_donut_convnext/model_iter_3500.pth
+iter [3502/10000], loss:0.0147
+iter [3605/10000], loss:0.0141
+iter [3708/10000], loss:0.0146
+iter [3811/10000], loss:0.0136
+device: cuda:0
+train images: 2528 | classes: can,fabric,fruit_jelly,rice,sheet_metal,vial,wallplugs,walnuts
+groups_a: [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]]
+groups_b: [[5, 6, 7, 8, 9, 10, 11], [12, 13, 14, 15, 16, 17]]
+can: I-Auroc:0.6466, I-AP:0.7091, I-F1:0.7414, P-AUROC:0.9418, P-AP:0.0104, P-F1:0.0320, P-AUPRO:0.3671
+fabric: I-Auroc:0.5673, I-AP:0.5699, I-F1:0.7742, P-AUROC:0.6899, P-AP:0.0140, P-F1:0.0331, P-AUPRO:0.2568
+fruit_jelly: I-Auroc:0.7067, I-AP:0.9019, I-F1:0.8571, P-AUROC:0.6703, P-AP:0.0162, P-F1:0.0359, P-AUPRO:0.1544
+rice: I-Auroc:0.6500, I-AP:0.8173, I-F1:0.8257, P-AUROC:0.6780, P-AP:0.0054, P-F1:0.0212, P-AUPRO:0.3377
+sheet_metal: I-Auroc:0.4759, I-AP:0.7972, I-F1:0.8867, P-AUROC:0.7571, P-AP:0.0201, P-F1:0.0602, P-AUPRO:0.2135
+vial: I-Auroc:0.5105, I-AP:0.7736, I-F1:0.8571, P-AUROC:0.8522, P-AP:0.0726, P-F1:0.1454, P-AUPRO:0.6811
+wallplugs: I-Auroc:0.5289, I-AP:0.6295, I-F1:0.7531, P-AUROC:0.7795, P-AP:0.0042, P-F1:0.0106, P-AUPRO:0.2206
+walnuts: I-Auroc:0.7502, I-AP:0.7992, I-F1:0.8079, P-AUROC:0.8503, P-AP:0.1140, P-F1:0.1976, P-AUPRO:0.6205
+Mean: I-Auroc:0.6045, I-AP:0.7497, I-F1:0.8129, P-AUROC:0.7774, P-AP:0.0321, P-F1:0.0670, P-AUPRO:0.3565
+iter [632/10000], loss:0.1074
+can: I-Auroc:0.6353, I-AP:0.6588, I-F1:0.7317, P-AUROC:0.9450, P-AP:0.0133, P-F1:0.0368, P-AUPRO:0.4015
+fabric: I-Auroc:0.5206, I-AP:0.5462, I-F1:0.7500, P-AUROC:0.6755, P-AP:0.0131, P-F1:0.0319, P-AUPRO:0.2529
+device: cuda:0
+train images: 2528 | classes: can,fabric,fruit_jelly,rice,sheet_metal,vial,wallplugs,walnuts
+groups_a: [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]]
+groups_b: [[5, 6, 7, 8, 9, 10, 11], [12, 13, 14, 15, 16, 17]]
+iter [632/40000], loss:0.1058
+iter [1264/40000], loss:0.0390
+iter [1896/40000], loss:0.0349
+can: I-Auroc:0.7056, I-AP:0.6956, I-F1:0.7354, P-AUROC:0.9510, P-AP:0.0125, P-F1:0.0341, P-AUPRO:0.3948
+fabric: I-Auroc:0.4909, I-AP:0.5219, I-F1:0.7814, P-AUROC:0.6268, P-AP:0.0109, P-F1:0.0256, P-AUPRO:0.2641
+fruit_jelly: I-Auroc:0.8100, I-AP:0.9402, I-F1:0.8702, P-AUROC:0.6863, P-AP:0.0173, P-F1:0.0355, P-AUPRO:0.1644
+rice: I-Auroc:0.6571, I-AP:0.8342, I-F1:0.8257, P-AUROC:0.6636, P-AP:0.0043, P-F1:0.0175, P-AUPRO:0.2962
+sheet_metal: I-Auroc:0.4569, I-AP:0.7680, I-F1:0.8867, P-AUROC:0.7803, P-AP:0.0225, P-F1:0.0706, P-AUPRO:0.2169
+vial: I-Auroc:0.5853, I-AP:0.8207, I-F1:0.8824, P-AUROC:0.8815, P-AP:0.0927, P-F1:0.1761, P-AUPRO:0.7721
+wallplugs: I-Auroc:0.4913, I-AP:0.6204, I-F1:0.7665, P-AUROC:0.7865, P-AP:0.0046, P-F1:0.0117, P-AUPRO:0.2494
+walnuts: I-Auroc:0.8381, I-AP:0.8752, I-F1:0.8817, P-AUROC:0.8833, P-AP:0.1268, P-F1:0.2097, P-AUPRO:0.6736
+Mean: I-Auroc:0.6294, I-AP:0.7595, I-F1:0.8288, P-AUROC:0.7824, P-AP:0.0365, P-F1:0.0726, P-AUPRO:0.3789
+iter [2528/40000], loss:0.0331
+iter [3160/40000], loss:0.0340
+iter [3792/40000], loss:0.0314
+can: I-Auroc:0.7052, I-AP:0.7085, I-F1:0.7679, P-AUROC:0.9456, P-AP:0.0111, P-F1:0.0252, P-AUPRO:0.4599
+fabric: I-Auroc:0.5030, I-AP:0.5525, I-F1:0.7500, P-AUROC:0.6273, P-AP:0.0111, P-F1:0.0259, P-AUPRO:0.2688
+fruit_jelly: I-Auroc:0.7942, I-AP:0.9357, I-F1:0.8739, P-AUROC:0.7031, P-AP:0.0202, P-F1:0.0397, P-AUPRO:0.1879
+rice: I-Auroc:0.6507, I-AP:0.8328, I-F1:0.8219, P-AUROC:0.6660, P-AP:0.0039, P-F1:0.0136, P-AUPRO:0.2854
+sheet_metal: I-Auroc:0.4711, I-AP:0.7741, I-F1:0.8867, P-AUROC:0.7798, P-AP:0.0208, P-F1:0.0618, P-AUPRO:0.2413
+vial: I-Auroc:0.5829, I-AP:0.8129, I-F1:0.8571, P-AUROC:0.8859, P-AP:0.1003, P-F1:0.1794, P-AUPRO:0.7915
+wallplugs: I-Auroc:0.5198, I-AP:0.6488, I-F1:0.7632, P-AUROC:0.7825, P-AP:0.0043, P-F1:0.0109, P-AUPRO:0.2350
+walnuts: I-Auroc:0.8277, I-AP:0.8791, I-F1:0.8370, P-AUROC:0.8865, P-AP:0.1387, P-F1:0.2226, P-AUPRO:0.6582
+Mean: I-Auroc:0.6318, I-AP:0.7680, I-F1:0.8197, P-AUROC:0.7846, P-AP:0.0388, P-F1:0.0724, P-AUPRO:0.3910
+iter [4424/40000], loss:0.0310
+iter [5056/40000], loss:0.0293
+iter [5688/40000], loss:0.0287
+can: I-Auroc:0.7029, I-AP:0.7280, I-F1:0.7838, P-AUROC:0.9439, P-AP:0.0110, P-F1:0.0273, P-AUPRO:0.4534
+fabric: I-Auroc:0.5139, I-AP:0.5677, I-F1:0.7642, P-AUROC:0.6108, P-AP:0.0092, P-F1:0.0204, P-AUPRO:0.2600
+fruit_jelly: I-Auroc:0.7929, I-AP:0.9454, I-F1:0.8833, P-AUROC:0.7109, P-AP:0.0199, P-F1:0.0413, P-AUPRO:0.1810
+rice: I-Auroc:0.6419, I-AP:0.8192, I-F1:0.8145, P-AUROC:0.6624, P-AP:0.0041, P-F1:0.0164, P-AUPRO:0.2818
+sheet_metal: I-Auroc:0.4760, I-AP:0.7692, I-F1:0.8867, P-AUROC:0.7864, P-AP:0.0232, P-F1:0.0639, P-AUPRO:0.2441
+vial: I-Auroc:0.6055, I-AP:0.8429, I-F1:0.8861, P-AUROC:0.8872, P-AP:0.1046, P-F1:0.1808, P-AUPRO:0.7791
+wallplugs: I-Auroc:0.5277, I-AP:0.6522, I-F1:0.7660, P-AUROC:0.7797, P-AP:0.0044, P-F1:0.0120, P-AUPRO:0.2579
+walnuts: I-Auroc:0.8324, I-AP:0.9008, I-F1:0.8466, P-AUROC:0.8878, P-AP:0.1459, P-F1:0.2281, P-AUPRO:0.6717
+Mean: I-Auroc:0.6366, I-AP:0.7782, I-F1:0.8289, P-AUROC:0.7836, P-AP:0.0403, P-F1:0.0738, P-AUPRO:0.3911
+iter [6320/40000], loss:0.0283
+iter [6952/40000], loss:0.0282
+iter [7584/40000], loss:0.0289
+can: I-Auroc:0.6957, I-AP:0.6812, I-F1:0.7644, P-AUROC:0.9431, P-AP:0.0112, P-F1:0.0272, P-AUPRO:0.4581
+fabric: I-Auroc:0.5292, I-AP:0.5951, I-F1:0.7556, P-AUROC:0.6196, P-AP:0.0120, P-F1:0.0286, P-AUPRO:0.2723
+fruit_jelly: I-Auroc:0.7836, I-AP:0.9204, I-F1:0.8633, P-AUROC:0.7165, P-AP:0.0212, P-F1:0.0433, P-AUPRO:0.2009
+rice: I-Auroc:0.6431, I-AP:0.8232, I-F1:0.8182, P-AUROC:0.6583, P-AP:0.0039, P-F1:0.0151, P-AUPRO:0.2756
+sheet_metal: I-Auroc:0.4785, I-AP:0.7741, I-F1:0.8867, P-AUROC:0.7868, P-AP:0.0233, P-F1:0.0663, P-AUPRO:0.2207
+vial: I-Auroc:0.5934, I-AP:0.8038, I-F1:0.8571, P-AUROC:0.8865, P-AP:0.0969, P-F1:0.1813, P-AUPRO:0.7751
+wallplugs: I-Auroc:0.5271, I-AP:0.6310, I-F1:0.7792, P-AUROC:0.7805, P-AP:0.0046, P-F1:0.0115, P-AUPRO:0.2493
+walnuts: I-Auroc:0.8357, I-AP:0.9020, I-F1:0.8603, P-AUROC:0.8868, P-AP:0.1465, P-F1:0.2286, P-AUPRO:0.6605
+Mean: I-Auroc:0.6358, I-AP:0.7664, I-F1:0.8231, P-AUROC:0.7848, P-AP:0.0400, P-F1:0.0752, P-AUPRO:0.3891
+iter [8216/40000], loss:0.0270
+iter [8848/40000], loss:0.0264
+iter [9480/40000], loss:0.0265
+can: I-Auroc:0.6916, I-AP:0.6843, I-F1:0.7672, P-AUROC:0.9386, P-AP:0.0085, P-F1:0.0209, P-AUPRO:0.4798
+fabric: I-Auroc:0.5220, I-AP:0.5405, I-F1:0.7317, P-AUROC:0.6243, P-AP:0.0116, P-F1:0.0280, P-AUPRO:0.2300
+fruit_jelly: I-Auroc:0.7808, I-AP:0.9428, I-F1:0.8943, P-AUROC:0.7211, P-AP:0.0224, P-F1:0.0437, P-AUPRO:0.2129
+rice: I-Auroc:0.6460, I-AP:0.8446, I-F1:0.8182, P-AUROC:0.6585, P-AP:0.0045, P-F1:0.0197, P-AUPRO:0.2893
+sheet_metal: I-Auroc:0.4787, I-AP:0.7754, I-F1:0.8867, P-AUROC:0.7884, P-AP:0.0236, P-F1:0.0730, P-AUPRO:0.2349
+vial: I-Auroc:0.5953, I-AP:0.8587, I-F1:0.8571, P-AUROC:0.8866, P-AP:0.1011, P-F1:0.1848, P-AUPRO:0.7880
+wallplugs: I-Auroc:0.5267, I-AP:0.6402, I-F1:0.7759, P-AUROC:0.7776, P-AP:0.0043, P-F1:0.0115, P-AUPRO:0.2826
+walnuts: I-Auroc:0.8384, I-AP:0.9157, I-F1:0.8652, P-AUROC:0.8871, P-AP:0.1496, P-F1:0.2288, P-AUPRO:0.6786
+Mean: I-Auroc:0.6349, I-AP:0.7753, I-F1:0.8245, P-AUROC:0.7853, P-AP:0.0407, P-F1:0.0763, P-AUPRO:0.3995
+Saving checkpoint: ./saved_results/mvtec2_dual_donut_convnext/model_iter_10000.pth
+Checkpoint save failed at ./saved_results/mvtec2_dual_donut_convnext/model_iter_10000.pth: write(): fd 64 failed with No space left on device
+device: cuda:0
+train images: 2528 | classes: can,fabric,fruit_jelly,rice,sheet_metal,vial,wallplugs,walnuts
+groups_a: [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]]
+groups_b: [[5, 6, 7, 8, 9, 10, 11], [12, 13, 14, 15, 16, 17]]
+device: cuda:0
+train images: 2528 | classes: can,fabric,fruit_jelly,rice,sheet_metal,vial,wallplugs,walnuts
+groups_a: [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]]
+groups_b: [[5, 6, 7, 8, 9, 10, 11], [12, 13, 14, 15, 16, 17]]
+device: cuda:0
+train images: 2528 | classes: can,fabric,fruit_jelly,rice,sheet_metal,vial,wallplugs,walnuts
+groups_a: [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35], [36, 37, 38, 39]]
+groups_b: [[5, 6, 7, 8, 9, 10, 11], [12, 13, 14, 15, 16, 17], [18, 19]]
+device: cuda:0
+train images: 2528 | classes: can,fabric,fruit_jelly,rice,sheet_metal,vial,wallplugs,walnuts
+groups_a: [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35], [36, 37, 38, 39]]
+groups_b: [[5, 6, 7, 8, 9, 10, 11], [12, 13, 14, 15, 16, 17], [18, 19]]
+device: cuda:0
+train images: 2528 | classes: can,fabric,fruit_jelly,rice,sheet_metal,vial,wallplugs,walnuts
+groups_a: [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35], [36, 37, 38, 39]]
+groups_b: [[5, 6, 7, 8, 9, 10, 11], [12, 13, 14, 15, 16, 17], [18, 19]]
+device: cuda:0
+train images: 2528 | classes: can,fabric,fruit_jelly,rice,sheet_metal,vial,wallplugs,walnuts
+groups_a: [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35], [36, 37, 38, 39]]
+groups_b: [[5, 6, 7, 8, 9, 10, 11], [12, 13, 14, 15, 16, 17], [18, 19]]
+iter [1264/40000], loss:0.0853
+can: I-Auroc:0.6181, I-AP:0.6659, I-F1:0.7143, P-AUROC:0.9479, P-AP:0.0169, P-F1:0.0433, P-AUPRO:0.4462
+fabric: I-Auroc:0.5338, I-AP:0.5693, I-F1:0.7424, P-AUROC:0.6876, P-AP:0.0127, P-F1:0.0274, P-AUPRO:0.2297
+fruit_jelly: I-Auroc:0.5467, I-AP:0.8097, I-F1:0.8571, P-AUROC:0.6541, P-AP:0.0147, P-F1:0.0314, P-AUPRO:0.1431
+rice: I-Auroc:0.5304, I-AP:0.7153, I-F1:0.8108, P-AUROC:0.6276, P-AP:0.0028, P-F1:0.0068, P-AUPRO:0.2250
+sheet_metal: I-Auroc:0.3037, I-AP:0.6877, I-F1:0.8824, P-AUROC:0.7113, P-AP:0.0107, P-F1:0.0276, P-AUPRO:0.1418
+vial: I-Auroc:0.6035, I-AP:0.8190, I-F1:0.8571, P-AUROC:0.8815, P-AP:0.0965, P-F1:0.1621, P-AUPRO:0.7354
+wallplugs: I-Auroc:0.4226, I-AP:0.5823, I-F1:0.7500, P-AUROC:0.7644, P-AP:0.0034, P-F1:0.0078, P-AUPRO:0.2318
+walnuts: I-Auroc:0.7989, I-AP:0.8682, I-F1:0.8182, P-AUROC:0.8233, P-AP:0.1045, P-F1:0.1875, P-AUPRO:0.5028
+Mean: I-Auroc:0.5447, I-AP:0.7147, I-F1:0.8040, P-AUROC:0.7622, P-AP:0.0328, P-F1:0.0617, P-AUPRO:0.3320
+iter [2528/40000], loss:0.0374
+iter [3792/40000], loss:0.0335
+can: I-Auroc:0.6329, I-AP:0.6592, I-F1:0.7143, P-AUROC:0.9396, P-AP:0.0150, P-F1:0.0401, P-AUPRO:0.4305
+fabric: I-Auroc:0.5019, I-AP:0.5637, I-F1:0.7333, P-AUROC:0.6715, P-AP:0.0131, P-F1:0.0298, P-AUPRO:0.2473
+fruit_jelly: I-Auroc:0.5635, I-AP:0.8498, I-F1:0.8571, P-AUROC:0.6590, P-AP:0.0170, P-F1:0.0343, P-AUPRO:0.1725
+rice: I-Auroc:0.5323, I-AP:0.7879, I-F1:0.8108, P-AUROC:0.6410, P-AP:0.0041, P-F1:0.0142, P-AUPRO:0.2974
+sheet_metal: I-Auroc:0.3705, I-AP:0.7001, I-F1:0.8824, P-AUROC:0.7098, P-AP:0.0153, P-F1:0.0456, P-AUPRO:0.1296
+vial: I-Auroc:0.5907, I-AP:0.8350, I-F1:0.8673, P-AUROC:0.8803, P-AP:0.1006, P-F1:0.1693, P-AUPRO:0.7597
+wallplugs: I-Auroc:0.4351, I-AP:0.5674, I-F1:0.7500, P-AUROC:0.7490, P-AP:0.0033, P-F1:0.0075, P-AUPRO:0.2284
+walnuts: I-Auroc:0.7613, I-AP:0.9151, I-F1:0.8324, P-AUROC:0.8258, P-AP:0.1347, P-F1:0.2186, P-AUPRO:0.5931
+Mean: I-Auroc:0.5485, I-AP:0.7348, I-F1:0.8059, P-AUROC:0.7595, P-AP:0.0379, P-F1:0.0699, P-AUPRO:0.3573
+iter [5056/40000], loss:0.0301
+can: I-Auroc:0.6256, I-AP:0.6567, I-F1:0.7143, P-AUROC:0.9339, P-AP:0.0130, P-F1:0.0336, P-AUPRO:0.4307
+fabric: I-Auroc:0.5012, I-AP:0.5596, I-F1:0.7386, P-AUROC:0.6279, P-AP:0.0079, P-F1:0.0181, P-AUPRO:0.2060
+fruit_jelly: I-Auroc:0.5727, I-AP:0.8549, I-F1:0.8593, P-AUROC:0.6544, P-AP:0.0162, P-F1:0.0324, P-AUPRO:0.1510
+rice: I-Auroc:0.5807, I-AP:0.8657, I-F1:0.8333, P-AUROC:0.6072, P-AP:0.0020, P-F1:0.0044, P-AUPRO:0.1554
+sheet_metal: I-Auroc:0.3634, I-AP:0.7123, I-F1:0.8824, P-AUROC:0.7221, P-AP:0.0166, P-F1:0.0488, P-AUPRO:0.1223
+vial: I-Auroc:0.6040, I-AP:0.8720, I-F1:0.8661, P-AUROC:0.8767, P-AP:0.1103, P-F1:0.1725, P-AUPRO:0.7704
+wallplugs: I-Auroc:0.4244, I-AP:0.5603, I-F1:0.7500, P-AUROC:0.7319, P-AP:0.0027, P-F1:0.0061, P-AUPRO:0.2017
+walnuts: I-Auroc:0.7594, I-AP:0.8477, I-F1:0.8458, P-AUROC:0.8236, P-AP:0.0854, P-F1:0.1842, P-AUPRO:0.5132
+Mean: I-Auroc:0.5539, I-AP:0.7412, I-F1:0.8112, P-AUROC:0.7472, P-AP:0.0318, P-F1:0.0625, P-AUPRO:0.3188
+iter [6320/40000], loss:0.0285
+iter [7584/40000], loss:0.0278
+can: I-Auroc:0.6344, I-AP:0.6770, I-F1:0.7225, P-AUROC:0.9366, P-AP:0.0166, P-F1:0.0409, P-AUPRO:0.3343
+fabric: I-Auroc:0.5225, I-AP:0.6750, I-F1:0.7634, P-AUROC:0.6271, P-AP:0.0112, P-F1:0.0256, P-AUPRO:0.2876
+fruit_jelly: I-Auroc:0.5880, I-AP:0.8444, I-F1:0.8759, P-AUROC:0.6525, P-AP:0.0146, P-F1:0.0304, P-AUPRO:0.1478
+rice: I-Auroc:0.5760, I-AP:0.8290, I-F1:0.8145, P-AUROC:0.6295, P-AP:0.0055, P-F1:0.0246, P-AUPRO:0.3446
+sheet_metal: I-Auroc:0.3957, I-AP:0.7593, I-F1:0.8824, P-AUROC:0.7232, P-AP:0.0151, P-F1:0.0504, P-AUPRO:0.1235
+vial: I-Auroc:0.5855, I-AP:0.8294, I-F1:0.8571, P-AUROC:0.8768, P-AP:0.0877, P-F1:0.1659, P-AUPRO:0.7369
+wallplugs: I-Auroc:0.4324, I-AP:0.5998, I-F1:0.7500, P-AUROC:0.7367, P-AP:0.0037, P-F1:0.0089, P-AUPRO:0.2734
+walnuts: I-Auroc:0.7754, I-AP:0.9027, I-F1:0.8492, P-AUROC:0.8257, P-AP:0.1232, P-F1:0.2084, P-AUPRO:0.6426
+Mean: I-Auroc:0.5637, I-AP:0.7646, I-F1:0.8144, P-AUROC:0.7510, P-AP:0.0347, P-F1:0.0694, P-AUPRO:0.3613
+iter [8848/40000], loss:0.0281
+can: I-Auroc:0.6359, I-AP:0.6787, I-F1:0.7143, P-AUROC:0.9273, P-AP:0.0130, P-F1:0.0337, P-AUPRO:0.4459
+fabric: I-Auroc:0.5136, I-AP:0.5277, I-F1:0.7336, P-AUROC:0.6214, P-AP:0.0123, P-F1:0.0298, P-AUPRO:0.2841
+fruit_jelly: I-Auroc:0.5819, I-AP:0.8618, I-F1:0.8696, P-AUROC:0.6489, P-AP:0.0201, P-F1:0.0374, P-AUPRO:0.1895
+rice: I-Auroc:0.5548, I-AP:0.8298, I-F1:0.8145, P-AUROC:0.6205, P-AP:0.0042, P-F1:0.0166, P-AUPRO:0.3393
+sheet_metal: I-Auroc:0.4247, I-AP:0.7372, I-F1:0.8824, P-AUROC:0.7134, P-AP:0.0293, P-F1:0.0818, P-AUPRO:0.1719
+vial: I-Auroc:0.5875, I-AP:0.8581, I-F1:0.8800, P-AUROC:0.8723, P-AP:0.1006, P-F1:0.1740, P-AUPRO:0.7834
+wallplugs: I-Auroc:0.4496, I-AP:0.5790, I-F1:0.7531, P-AUROC:0.7426, P-AP:0.0052, P-F1:0.0161, P-AUPRO:0.2643
+walnuts: I-Auroc:0.7387, I-AP:0.8918, I-F1:0.8182, P-AUROC:0.8205, P-AP:0.1487, P-F1:0.2356, P-AUPRO:0.6421
+Mean: I-Auroc:0.5608, I-AP:0.7455, I-F1:0.8082, P-AUROC:0.7459, P-AP:0.0417, P-F1:0.0781, P-AUPRO:0.3901
+Saving checkpoint: ./saved_results/mvtec2_dual_donut_convnext/model_iter_10000.pth
+iter [10112/40000], loss:0.0256
+iter [11376/40000], loss:0.0253
+can: I-Auroc:0.6337, I-AP:0.6603, I-F1:0.7143, P-AUROC:0.9176, P-AP:0.0122, P-F1:0.0312, P-AUPRO:0.4508
+fabric: I-Auroc:0.5103, I-AP:0.5742, I-F1:0.7317, P-AUROC:0.6098, P-AP:0.0098, P-F1:0.0213, P-AUPRO:0.2369
+fruit_jelly: I-Auroc:0.5847, I-AP:0.9007, I-F1:0.8696, P-AUROC:0.6483, P-AP:0.0203, P-F1:0.0386, P-AUPRO:0.1847
+rice: I-Auroc:0.5492, I-AP:0.8183, I-F1:0.8108, P-AUROC:0.6159, P-AP:0.0034, P-F1:0.0148, P-AUPRO:0.3227
+sheet_metal: I-Auroc:0.4382, I-AP:0.7429, I-F1:0.8824, P-AUROC:0.7110, P-AP:0.0310, P-F1:0.0819, P-AUPRO:0.1786
+vial: I-Auroc:0.5870, I-AP:0.8675, I-F1:0.8700, P-AUROC:0.8694, P-AP:0.1027, P-F1:0.1758, P-AUPRO:0.7802
+wallplugs: I-Auroc:0.4598, I-AP:0.5921, I-F1:0.7500, P-AUROC:0.7351, P-AP:0.0037, P-F1:0.0095, P-AUPRO:0.2267
+walnuts: I-Auroc:0.7132, I-AP:0.9123, I-F1:0.8362, P-AUROC:0.8161, P-AP:0.1591, P-F1:0.2471, P-AUPRO:0.6405
+Mean: I-Auroc:0.5595, I-AP:0.7585, I-F1:0.8081, P-AUROC:0.7404, P-AP:0.0428, P-F1:0.0775, P-AUPRO:0.3776
+iter [12640/40000], loss:0.0247
+iter [13904/40000], loss:0.0240
+can: I-Auroc:0.6339, I-AP:0.6902, I-F1:0.7359, P-AUROC:0.9098, P-AP:0.0118, P-F1:0.0303, P-AUPRO:0.4480
+fabric: I-Auroc:0.5099, I-AP:0.6287, I-F1:0.7469, P-AUROC:0.6046, P-AP:0.0103, P-F1:0.0221, P-AUPRO:0.2788
+fruit_jelly: I-Auroc:0.5918, I-AP:0.8925, I-F1:0.8696, P-AUROC:0.6498, P-AP:0.0209, P-F1:0.0385, P-AUPRO:0.1943
+rice: I-Auroc:0.5486, I-AP:0.8267, I-F1:0.8145, P-AUROC:0.6116, P-AP:0.0042, P-F1:0.0182, P-AUPRO:0.2928
+sheet_metal: I-Auroc:0.4447, I-AP:0.7379, I-F1:0.8867, P-AUROC:0.7104, P-AP:0.0331, P-F1:0.0895, P-AUPRO:0.1779
+vial: I-Auroc:0.5803, I-AP:0.7950, I-F1:0.8776, P-AUROC:0.8673, P-AP:0.1005, P-F1:0.1777, P-AUPRO:0.7835
+wallplugs: I-Auroc:0.4634, I-AP:0.5841, I-F1:0.7531, P-AUROC:0.7329, P-AP:0.0038, P-F1:0.0090, P-AUPRO:0.2436
+walnuts: I-Auroc:0.7013, I-AP:0.9176, I-F1:0.8416, P-AUROC:0.8148, P-AP:0.1660, P-F1:0.2647, P-AUPRO:0.6409
+Mean: I-Auroc:0.5592, I-AP:0.7591, I-F1:0.8157, P-AUROC:0.7377, P-AP:0.0438, P-F1:0.0812, P-AUPRO:0.3824
+iter [15168/40000], loss:0.0229
+can: I-Auroc:0.6357, I-AP:0.6794, I-F1:0.7299, P-AUROC:0.9073, P-AP:0.0114, P-F1:0.0301, P-AUPRO:0.4396
+fabric: I-Auroc:0.5098, I-AP:0.5933, I-F1:0.7317, P-AUROC:0.6035, P-AP:0.0101, P-F1:0.0223, P-AUPRO:0.2747
+fruit_jelly: I-Auroc:0.6037, I-AP:0.9044, I-F1:0.8696, P-AUROC:0.6575, P-AP:0.0228, P-F1:0.0441, P-AUPRO:0.1894
+rice: I-Auroc:0.5546, I-AP:0.8416, I-F1:0.8257, P-AUROC:0.6138, P-AP:0.0040, P-F1:0.0153, P-AUPRO:0.2766
+sheet_metal: I-Auroc:0.4472, I-AP:0.7345, I-F1:0.8856, P-AUROC:0.7156, P-AP:0.0330, P-F1:0.0895, P-AUPRO:0.1808
+vial: I-Auroc:0.5840, I-AP:0.8597, I-F1:0.8571, P-AUROC:0.8689, P-AP:0.1006, P-F1:0.1733, P-AUPRO:0.7842
+wallplugs: I-Auroc:0.4669, I-AP:0.6029, I-F1:0.7500, P-AUROC:0.7337, P-AP:0.0039, P-F1:0.0110, P-AUPRO:0.2417
+walnuts: I-Auroc:0.7012, I-AP:0.9097, I-F1:0.8216, P-AUROC:0.8184, P-AP:0.1747, P-F1:0.2705, P-AUPRO:0.6600
+Mean: I-Auroc:0.5629, I-AP:0.7657, I-F1:0.8089, P-AUROC:0.7398, P-AP:0.0451, P-F1:0.0820, P-AUPRO:0.3809
+iter [16432/40000], loss:0.0226
+iter [17696/40000], loss:0.0228
+can: I-Auroc:0.6360, I-AP:0.6780, I-F1:0.7311, P-AUROC:0.9039, P-AP:0.0115, P-F1:0.0308, P-AUPRO:0.4351
+fabric: I-Auroc:0.5073, I-AP:0.5786, I-F1:0.7317, P-AUROC:0.6017, P-AP:0.0108, P-F1:0.0243, P-AUPRO:0.2782
+fruit_jelly: I-Auroc:0.6089, I-AP:0.8856, I-F1:0.8696, P-AUROC:0.6599, P-AP:0.0232, P-F1:0.0430, P-AUPRO:0.1942
+rice: I-Auroc:0.5579, I-AP:0.8283, I-F1:0.8219, P-AUROC:0.6147, P-AP:0.0046, P-F1:0.0200, P-AUPRO:0.2751
+sheet_metal: I-Auroc:0.4491, I-AP:0.7337, I-F1:0.8824, P-AUROC:0.7170, P-AP:0.0338, P-F1:0.0907, P-AUPRO:0.1926
+vial: I-Auroc:0.5829, I-AP:0.8396, I-F1:0.8776, P-AUROC:0.8681, P-AP:0.1029, P-F1:0.1779, P-AUPRO:0.7901
+wallplugs: I-Auroc:0.4686, I-AP:0.5877, I-F1:0.7500, P-AUROC:0.7324, P-AP:0.0038, P-F1:0.0094, P-AUPRO:0.2674
+walnuts: I-Auroc:0.6944, I-AP:0.9093, I-F1:0.8272, P-AUROC:0.8179, P-AP:0.1751, P-F1:0.2729, P-AUPRO:0.6516
+Mean: I-Auroc:0.5631, I-AP:0.7551, I-F1:0.8114, P-AUROC:0.7394, P-AP:0.0457, P-F1:0.0836, P-AUPRO:0.3855
+iter [18960/40000], loss:0.0224
+device: cuda:0
+train images: 2528 | classes: can,fabric,fruit_jelly,rice,sheet_metal,vial,wallplugs,walnuts
+groups_a: [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35], [36, 37, 38, 39]]
+groups_b: [[5, 6, 7, 8, 9, 10, 11], [12, 13, 14, 15, 16, 17], [18, 19]]
+device: cuda:0
+train images: 2528 | classes: can,fabric,fruit_jelly,rice,sheet_metal,vial,wallplugs,walnuts
+groups_a: [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35], [36, 37, 38, 39]]
+groups_b: [[5, 6, 7, 8, 9, 10, 11], [12, 13, 14, 15, 16, 17], [18, 19]]
+iter [632/40000], loss:0.1093
+iter [1264/40000], loss:0.0391
+iter [1896/40000], loss:0.0323
+can: I-Auroc:0.6056, I-AP:0.6536, I-F1:0.7143, P-AUROC:0.9492, P-AP:0.0118, P-F1:0.0314, P-AUPRO:0.4198
+fabric: I-Auroc:0.5493, I-AP:0.5527, I-F1:0.7751, P-AUROC:0.6539, P-AP:0.0119, P-F1:0.0268, P-AUPRO:0.2754
+fruit_jelly: I-Auroc:0.7558, I-AP:0.8987, I-F1:0.8750, P-AUROC:0.6888, P-AP:0.0183, P-F1:0.0345, P-AUPRO:0.1727
+rice: I-Auroc:0.6066, I-AP:0.8118, I-F1:0.8145, P-AUROC:0.6652, P-AP:0.0041, P-F1:0.0184, P-AUPRO:0.2741
+sheet_metal: I-Auroc:0.3523, I-AP:0.7139, I-F1:0.8824, P-AUROC:0.7809, P-AP:0.0220, P-F1:0.0603, P-AUPRO:0.1590
+vial: I-Auroc:0.6294, I-AP:0.8502, I-F1:0.8899, P-AUROC:0.8871, P-AP:0.1041, P-F1:0.1663, P-AUPRO:0.7501
+wallplugs: I-Auroc:0.4133, I-AP:0.5833, I-F1:0.7531, P-AUROC:0.7733, P-AP:0.0037, P-F1:0.0085, P-AUPRO:0.2316
+walnuts: I-Auroc:0.8189, I-AP:0.8906, I-F1:0.8128, P-AUROC:0.8597, P-AP:0.1331, P-F1:0.2186, P-AUPRO:0.6021
+Mean: I-Auroc:0.5914, I-AP:0.7444, I-F1:0.8146, P-AUROC:0.7823, P-AP:0.0386, P-F1:0.0706, P-AUPRO:0.3606
+mode: single
+device: cuda:0
+train images: 412 | classes: can
+mode: single
+device: cuda:0
+train images: 412 | classes: can
+mode: single
+device: cuda:0
+train images: 412 | classes: can
+device: cuda:0
+mode: single
+train images: 412 | classes: can
+groups_a: [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35], [36, 37, 38, 39]]
+device: cuda:0
+mode: single
+train images: 412 | classes: can
+groups_a: [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35], [36, 37, 38, 39]]
+device: cuda:0
+mode: single
+train images: 412 | classes: can
+groups_a: [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35], [36, 37, 38, 39]]
+device: cuda:0
+mode: single
+train images: 412 | classes: can
+groups_a: [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35], [36, 37, 38, 39]]
+iter [103/40000], loss:0.3169
+iter [206/40000], loss:0.1324
+iter [309/40000], loss:0.1054
+iter [412/40000], loss:0.0899
+can: I-Auroc:0.4656, I-AP:0.5759, I-F1:0.7177, P-AUROC:0.8758, P-AP:0.0086, P-F1:0.0419, P-AUPRO:0.3339
+Mean: I-Auroc:0.4656, I-AP:0.5759, I-F1:0.7177, P-AUROC:0.8758, P-AP:0.0086, P-F1:0.0419, P-AUPRO:0.3339
+iter [515/40000], loss:0.0830
+iter [618/40000], loss:0.0737
+iter [721/40000], loss:0.0685
+iter [824/40000], loss:0.0645
+iter [927/40000], loss:0.0601
+can: I-Auroc:0.4801, I-AP:0.5853, I-F1:0.7171, P-AUROC:0.8266, P-AP:0.0071, P-F1:0.0401, P-AUPRO:0.2353
+Mean: I-Auroc:0.4801, I-AP:0.5853, I-F1:0.7171, P-AUROC:0.8266, P-AP:0.0071, P-F1:0.0401, P-AUPRO:0.2353
+iter [1030/40000], loss:0.0531
+iter [1133/40000], loss:0.0492
+iter [1236/40000], loss:0.0475
+iter [1339/40000], loss:0.0465
+iter [1442/40000], loss:0.0450
+can: I-Auroc:0.4924, I-AP:0.5950, I-F1:0.7171, P-AUROC:0.8345, P-AP:0.0091, P-F1:0.0432, P-AUPRO:0.2663
+Mean: I-Auroc:0.4924, I-AP:0.5950, I-F1:0.7171, P-AUROC:0.8345, P-AP:0.0091, P-F1:0.0432, P-AUPRO:0.2663
+iter [1545/40000], loss:0.0440
+iter [1648/40000], loss:0.0434
+iter [1751/40000], loss:0.0419
+iter [1854/40000], loss:0.0413
+iter [1957/40000], loss:0.0410
+can: I-Auroc:0.4913, I-AP:0.5861, I-F1:0.7177, P-AUROC:0.8316, P-AP:0.0085, P-F1:0.0424, P-AUPRO:0.2549
+Mean: I-Auroc:0.4913, I-AP:0.5861, I-F1:0.7177, P-AUROC:0.8316, P-AP:0.0085, P-F1:0.0424, P-AUPRO:0.2549
+iter [2060/40000], loss:0.0401
+iter [2163/40000], loss:0.0391
+iter [2266/40000], loss:0.0383
+iter [2369/40000], loss:0.0381
+iter [2472/40000], loss:0.0377
+can: I-Auroc:0.4979, I-AP:0.6146, I-F1:0.7236, P-AUROC:0.8331, P-AP:0.0088, P-F1:0.0432, P-AUPRO:0.2744
+Mean: I-Auroc:0.4979, I-AP:0.6146, I-F1:0.7236, P-AUROC:0.8331, P-AP:0.0088, P-F1:0.0432, P-AUPRO:0.2744
+iter [2575/40000], loss:0.0379
+iter [2678/40000], loss:0.0361
+iter [2781/40000], loss:0.0364
+iter [2884/40000], loss:0.0353
+iter [2987/40000], loss:0.0354
+can: I-Auroc:0.4992, I-AP:0.6017, I-F1:0.7177, P-AUROC:0.8291, P-AP:0.0090, P-F1:0.0462, P-AUPRO:0.2214
+Mean: I-Auroc:0.4992, I-AP:0.6017, I-F1:0.7177, P-AUROC:0.8291, P-AP:0.0090, P-F1:0.0462, P-AUPRO:0.2214
+iter [3090/40000], loss:0.0342
+iter [3193/40000], loss:0.0343
+iter [3296/40000], loss:0.0336
+iter [3399/40000], loss:0.0333
+can: I-Auroc:0.5024, I-AP:0.6112, I-F1:0.7317, P-AUROC:0.8300, P-AP:0.0087, P-F1:0.0431, P-AUPRO:0.2703
+Mean: I-Auroc:0.5024, I-AP:0.6112, I-F1:0.7317, P-AUROC:0.8300, P-AP:0.0087, P-F1:0.0431, P-AUPRO:0.2703
+iter [3502/40000], loss:0.0327
+iter [3605/40000], loss:0.0326
+iter [3708/40000], loss:0.0319
+iter [3811/40000], loss:0.0318
+iter [3914/40000], loss:0.0313
+can: I-Auroc:0.5017, I-AP:0.5981, I-F1:0.7184, P-AUROC:0.8272, P-AP:0.0090, P-F1:0.0462, P-AUPRO:0.2242
+Mean: I-Auroc:0.5017, I-AP:0.5981, I-F1:0.7184, P-AUROC:0.8272, P-AP:0.0090, P-F1:0.0462, P-AUPRO:0.2242
+iter [4017/40000], loss:0.0320
+iter [4120/40000], loss:0.0312
+iter [4223/40000], loss:0.0308
+device: cuda:0
+mode: dual
+train images: 412 | classes: can
+groups_a: [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35], [36, 37, 38, 39]]
+groups_b: [[5, 6, 7, 8, 9, 10, 11], [12, 13, 14, 15, 16, 17], [18, 19]]
+device: cuda:0
+mode: dual
+train images: 412 | classes: can
+groups_a: [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35], [36, 37, 38, 39]]
+groups_b: [[5, 6, 7, 8, 9, 10, 11], [12, 13, 14, 15, 16, 17], [18, 19]]
+device: cuda:0
+mode: dual
+train images: 412 | classes: can
+groups_a: [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35], [36, 37, 38, 39]]
+groups_b: [[5, 6, 7, 8, 9, 10, 11], [12, 13, 14, 15, 16, 17], [18, 19]]
+iter [206/40000], loss:0.1996
+iter [412/40000], loss:0.0710
+can: I-Auroc:0.6540, I-AP:0.6804, I-F1:0.7171, P-AUROC:0.9556, P-AP:0.0217, P-F1:0.0474, P-AUPRO:0.5740
+Mean: I-Auroc:0.6540, I-AP:0.6804, I-F1:0.7171, P-AUROC:0.9556, P-AP:0.0217, P-F1:0.0474, P-AUPRO:0.5740
+iter [618/40000], loss:0.0458
+iter [824/40000], loss:0.0361
+can: I-Auroc:0.5792, I-AP:0.6876, I-F1:0.7355, P-AUROC:0.8991, P-AP:0.0151, P-F1:0.0331, P-AUPRO:0.5015
+Mean: I-Auroc:0.5792, I-AP:0.6876, I-F1:0.7355, P-AUROC:0.8991, P-AP:0.0151, P-F1:0.0331, P-AUPRO:0.5015
+iter [1030/40000], loss:0.0301
+device: cuda:0
+mode: single
+train images: 313 | classes: rice
+groups_a: [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35], [36, 37, 38, 39]]
+iter [78/40000], loss:0.2905
+iter [156/40000], loss:0.1126
+iter [234/40000], loss:0.1066
+iter [312/40000], loss:0.1056
+iter [390/40000], loss:0.1071
+iter [468/40000], loss:0.1100
+rice: I-Auroc:0.7468, I-AP:0.8662, I-F1:0.8491, P-AUROC:0.8903, P-AP:0.2496, P-F1:0.3081, P-AUPRO:0.5320
+Mean: I-Auroc:0.7468, I-AP:0.8662, I-F1:0.8491, P-AUROC:0.8903, P-AP:0.2496, P-F1:0.3081, P-AUPRO:0.5320
+iter [546/40000], loss:0.1133
+iter [624/40000], loss:0.1139
+iter [702/40000], loss:0.1177
+iter [780/40000], loss:0.1188
+iter [858/40000], loss:0.1201
+iter [936/40000], loss:0.1226
+rice: I-Auroc:0.7142, I-AP:0.8721, I-F1:0.8252, P-AUROC:0.8803, P-AP:0.2599, P-F1:0.3206, P-AUPRO:0.5123
+Mean: I-Auroc:0.7142, I-AP:0.8721, I-F1:0.8252, P-AUROC:0.8803, P-AP:0.2599, P-F1:0.3206, P-AUPRO:0.5123
+iter [1014/40000], loss:0.1227
+iter [1092/40000], loss:0.1204
+iter [1170/40000], loss:0.1196
+iter [1248/40000], loss:0.1190
+iter [1326/40000], loss:0.1178
+iter [1404/40000], loss:0.1177
+iter [1482/40000], loss:0.1165
+rice: I-Auroc:0.6740, I-AP:0.8644, I-F1:0.8517, P-AUROC:0.8848, P-AP:0.3367, P-F1:0.3978, P-AUPRO:0.5364
+Mean: I-Auroc:0.6740, I-AP:0.8644, I-F1:0.8517, P-AUROC:0.8848, P-AP:0.3367, P-F1:0.3978, P-AUPRO:0.5364
+iter [1560/40000], loss:0.1160
+iter [1638/40000], loss:0.1154
+iter [1716/40000], loss:0.1153
+iter [1794/40000], loss:0.1144
+iter [1872/40000], loss:0.1138
+iter [1950/40000], loss:0.1134
+rice: I-Auroc:0.6790, I-AP:0.8608, I-F1:0.8219, P-AUROC:0.8879, P-AP:0.2876, P-F1:0.3590, P-AUPRO:0.5310
+Mean: I-Auroc:0.6790, I-AP:0.8608, I-F1:0.8219, P-AUROC:0.8879, P-AP:0.2876, P-F1:0.3590, P-AUPRO:0.5310
+iter [2028/40000], loss:0.1125
+iter [2106/40000], loss:0.1127
+iter [2184/40000], loss:0.1123
+device: cuda:0
+mode: single
+train images: 313 | classes: rice
+groups_a: [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35], [36, 37, 38, 39]]
+iter [78/40000], loss:0.1966
+iter [156/40000], loss:0.1169
+iter [234/40000], loss:0.1087
+iter [312/40000], loss:0.1091
+iter [390/40000], loss:0.1096
+iter [468/40000], loss:0.1099
+rice: I-Auroc:0.7405, I-AP:0.8685, I-F1:0.8517, P-AUROC:0.8863, P-AP:0.2196, P-F1:0.2826, P-AUPRO:0.4999
+Mean: I-Auroc:0.7405, I-AP:0.8685, I-F1:0.8517, P-AUROC:0.8863, P-AP:0.2196, P-F1:0.2826, P-AUPRO:0.4999
+iter [546/40000], loss:0.1162
+iter [624/40000], loss:0.1166
+iter [702/40000], loss:0.1174
+iter [780/40000], loss:0.1203
+iter [858/40000], loss:0.1225
+iter [936/40000], loss:0.1231
+rice: I-Auroc:0.7399, I-AP:0.8794, I-F1:0.8318, P-AUROC:0.8878, P-AP:0.2637, P-F1:0.3287, P-AUPRO:0.5425
+Mean: I-Auroc:0.7399, I-AP:0.8794, I-F1:0.8318, P-AUROC:0.8878, P-AP:0.2637, P-F1:0.3287, P-AUPRO:0.5425
+iter [1014/40000], loss:0.1216
+iter [1092/40000], loss:0.1708
+iter [1170/40000], loss:0.1186
+iter [1248/40000], loss:0.1170
+iter [1326/40000], loss:0.1168
+iter [1404/40000], loss:0.1171
+iter [1482/40000], loss:0.1154
+rice: I-Auroc:0.7078, I-AP:0.8591, I-F1:0.8396, P-AUROC:0.8862, P-AP:0.2742, P-F1:0.3469, P-AUPRO:0.5066
+Mean: I-Auroc:0.7078, I-AP:0.8591, I-F1:0.8396, P-AUROC:0.8862, P-AP:0.2742, P-F1:0.3469, P-AUPRO:0.5066
+iter [1560/40000], loss:0.1155
+iter [1638/40000], loss:0.1149
+iter [1716/40000], loss:0.1137
+iter [1794/40000], loss:0.1151
+iter [1872/40000], loss:0.1146
+iter [1950/40000], loss:0.1133
+rice: I-Auroc:0.6979, I-AP:0.8478, I-F1:0.8208, P-AUROC:0.8872, P-AP:0.3279, P-F1:0.3917, P-AUPRO:0.5402
+Mean: I-Auroc:0.6979, I-AP:0.8478, I-F1:0.8208, P-AUROC:0.8872, P-AP:0.3279, P-F1:0.3917, P-AUPRO:0.5402
+iter [2028/40000], loss:0.1140
+iter [2106/40000], loss:0.1124
+iter [2184/40000], loss:0.1118
+iter [2262/40000], loss:0.1119
+iter [2340/40000], loss:0.1119
+iter [2418/40000], loss:0.2116
+iter [2496/40000], loss:0.1733
+rice: I-Auroc:0.6744, I-AP:0.8494, I-F1:0.8128, P-AUROC:0.8858, P-AP:0.2021, P-F1:0.2662, P-AUPRO:0.5043
+Mean: I-Auroc:0.6744, I-AP:0.8494, I-F1:0.8128, P-AUROC:0.8858, P-AP:0.2021, P-F1:0.2662, P-AUPRO:0.5043
+iter [2574/40000], loss:0.1214
+iter [2652/40000], loss:0.1110
+iter [2730/40000], loss:0.1099
+iter [2808/40000], loss:0.1100
+iter [2886/40000], loss:0.1095
+iter [2964/40000], loss:0.1095
+rice: I-Auroc:0.6928, I-AP:0.9128, I-F1:0.8586, P-AUROC:0.8858, P-AP:0.3589, P-F1:0.4309, P-AUPRO:0.4817
+Mean: I-Auroc:0.6928, I-AP:0.9128, I-F1:0.8586, P-AUROC:0.8858, P-AP:0.3589, P-F1:0.4309, P-AUPRO:0.4817
+iter [3042/40000], loss:0.1099
+iter [3120/40000], loss:0.1098
+iter [3198/40000], loss:0.1086
+iter [3276/40000], loss:0.1086
+iter [3354/40000], loss:0.1097
+iter [3432/40000], loss:0.1103
+rice: I-Auroc:0.6955, I-AP:0.8989, I-F1:0.8476, P-AUROC:0.8870, P-AP:0.3201, P-F1:0.3886, P-AUPRO:0.4964
+Mean: I-Auroc:0.6955, I-AP:0.8989, I-F1:0.8476, P-AUROC:0.8870, P-AP:0.3201, P-F1:0.3886, P-AUPRO:0.4964
+iter [3510/40000], loss:0.1092
+iter [3588/40000], loss:0.1087
+iter [3666/40000], loss:0.1077
+iter [3744/40000], loss:0.1079
+iter [3822/40000], loss:0.1076
+iter [3900/40000], loss:0.1078
+iter [3978/40000], loss:0.1073
+rice: I-Auroc:0.6900, I-AP:0.8393, I-F1:0.8302, P-AUROC:0.8862, P-AP:0.1780, P-F1:0.2596, P-AUPRO:0.4586
+Mean: I-Auroc:0.6900, I-AP:0.8393, I-F1:0.8302, P-AUROC:0.8862, P-AP:0.1780, P-F1:0.2596, P-AUPRO:0.4586
+iter [4056/40000], loss:0.1083
+iter [4134/40000], loss:0.1074
+iter [4212/40000], loss:0.1065
+iter [4290/40000], loss:0.1080
+iter [4368/40000], loss:0.1071
+iter [4446/40000], loss:0.1058
+rice: I-Auroc:0.6834, I-AP:0.8558, I-F1:0.8108, P-AUROC:0.8846, P-AP:0.1722, P-F1:0.2399, P-AUPRO:0.4493
+Mean: I-Auroc:0.6834, I-AP:0.8558, I-F1:0.8108, P-AUROC:0.8846, P-AP:0.1722, P-F1:0.2399, P-AUPRO:0.4493
+iter [4524/40000], loss:0.1095
+iter [4602/40000], loss:0.1083
+iter [4680/40000], loss:0.1086
+iter [4758/40000], loss:0.1061
+iter [4836/40000], loss:0.1060
+iter [4914/40000], loss:0.1060
+iter [4992/40000], loss:0.1058
+rice: I-Auroc:0.6842, I-AP:0.8474, I-F1:0.8182, P-AUROC:0.8849, P-AP:0.2321, P-F1:0.2898, P-AUPRO:0.4614
+Mean: I-Auroc:0.6842, I-AP:0.8474, I-F1:0.8182, P-AUROC:0.8849, P-AP:0.2321, P-F1:0.2898, P-AUPRO:0.4614
+iter [5070/40000], loss:0.1056
+iter [5148/40000], loss:0.1055
+iter [5226/40000], loss:0.1060
+iter [5304/40000], loss:0.1057
+iter [5382/40000], loss:0.1053
+iter [5460/40000], loss:0.1042
+rice: I-Auroc:0.6712, I-AP:0.8131, I-F1:0.8491, P-AUROC:0.8805, P-AP:0.1508, P-F1:0.2153, P-AUPRO:0.4098
+Mean: I-Auroc:0.6712, I-AP:0.8131, I-F1:0.8491, P-AUROC:0.8805, P-AP:0.1508, P-F1:0.2153, P-AUPRO:0.4098
+iter [5538/40000], loss:0.1125
+iter [5616/40000], loss:0.1075
+iter [5694/40000], loss:0.1063
+iter [5772/40000], loss:0.1063
+iter [5850/40000], loss:0.1044
+iter [5928/40000], loss:0.1035
+rice: I-Auroc:0.6636, I-AP:0.8554, I-F1:0.8252, P-AUROC:0.8811, P-AP:0.3174, P-F1:0.3840, P-AUPRO:0.5046
+Mean: I-Auroc:0.6636, I-AP:0.8554, I-F1:0.8252, P-AUROC:0.8811, P-AP:0.3174, P-F1:0.3840, P-AUPRO:0.5046
+iter [6006/40000], loss:0.1006
+iter [6084/40000], loss:0.1020
+iter [6162/40000], loss:0.1219
+iter [6240/40000], loss:0.1052
+iter [6318/40000], loss:0.1064
+iter [6396/40000], loss:0.1065
+iter [6474/40000], loss:0.1092
+rice: I-Auroc:0.6576, I-AP:0.7698, I-F1:0.8286, P-AUROC:0.8803, P-AP:0.2150, P-F1:0.2979, P-AUPRO:0.4285
+Mean: I-Auroc:0.6576, I-AP:0.7698, I-F1:0.8286, P-AUROC:0.8803, P-AP:0.2150, P-F1:0.2979, P-AUPRO:0.4285
+iter [6552/40000], loss:0.1041
+iter [6630/40000], loss:0.1052
+iter [6708/40000], loss:0.1050
+iter [6786/40000], loss:0.1057
+iter [6864/40000], loss:0.1044
+iter [6942/40000], loss:0.1044
+rice: I-Auroc:0.6559, I-AP:0.8316, I-F1:0.8325, P-AUROC:0.8793, P-AP:0.2062, P-F1:0.2776, P-AUPRO:0.4145
+Mean: I-Auroc:0.6559, I-AP:0.8316, I-F1:0.8325, P-AUROC:0.8793, P-AP:0.2062, P-F1:0.2776, P-AUPRO:0.4145
+iter [7020/40000], loss:0.1050
+iter [7098/40000], loss:0.1036
+iter [7176/40000], loss:0.1052
+iter [7254/40000], loss:0.1040
+iter [7332/40000], loss:0.1036
+iter [7410/40000], loss:0.1202
+iter [7488/40000], loss:0.1972
+rice: I-Auroc:0.6455, I-AP:0.8220, I-F1:0.8108, P-AUROC:0.8779, P-AP:0.1545, P-F1:0.2204, P-AUPRO:0.4943
+Mean: I-Auroc:0.6455, I-AP:0.8220, I-F1:0.8108, P-AUROC:0.8779, P-AP:0.1545, P-F1:0.2204, P-AUPRO:0.4943
+iter [7566/40000], loss:0.1333
+iter [7644/40000], loss:0.1046
+iter [7722/40000], loss:0.1054
+iter [7800/40000], loss:0.1171
+iter [7878/40000], loss:0.1007
+iter [7956/40000], loss:0.1040
+rice: I-Auroc:0.6387, I-AP:0.7469, I-F1:0.8108, P-AUROC:0.8769, P-AP:0.1306, P-F1:0.2221, P-AUPRO:0.4605
+Mean: I-Auroc:0.6387, I-AP:0.7469, I-F1:0.8108, P-AUROC:0.8769, P-AP:0.1306, P-F1:0.2221, P-AUPRO:0.4605
+iter [8034/40000], loss:0.1058
+iter [8112/40000], loss:0.1046
+iter [8190/40000], loss:0.1020
+iter [8268/40000], loss:0.1035
+iter [8346/40000], loss:0.1045
+iter [8424/40000], loss:0.1060
+rice: I-Auroc:0.6373, I-AP:0.8273, I-F1:0.8182, P-AUROC:0.8761, P-AP:0.1865, P-F1:0.2574, P-AUPRO:0.4594
+Mean: I-Auroc:0.6373, I-AP:0.8273, I-F1:0.8182, P-AUROC:0.8761, P-AP:0.1865, P-F1:0.2574, P-AUPRO:0.4594
+iter [8502/40000], loss:0.1030
+iter [8580/40000], loss:0.1038
+iter [8658/40000], loss:0.1037
+iter [8736/40000], loss:0.1350
+iter [8814/40000], loss:0.1386
+iter [8892/40000], loss:0.1027
+iter [8970/40000], loss:0.1025
+rice: I-Auroc:0.6367, I-AP:0.8258, I-F1:0.8219, P-AUROC:0.8766, P-AP:0.2802, P-F1:0.3572, P-AUPRO:0.4820
+Mean: I-Auroc:0.6367, I-AP:0.8258, I-F1:0.8219, P-AUROC:0.8766, P-AP:0.2802, P-F1:0.3572, P-AUPRO:0.4820
+iter [9048/40000], loss:0.1037
+iter [9126/40000], loss:0.0997
+iter [9204/40000], loss:0.1021
+iter [9282/40000], loss:0.1005
+iter [9360/40000], loss:0.0991
+iter [9438/40000], loss:0.0982
+rice: I-Auroc:0.6286, I-AP:0.7615, I-F1:0.8318, P-AUROC:0.8763, P-AP:0.2779, P-F1:0.3510, P-AUPRO:0.5184
+Mean: I-Auroc:0.6286, I-AP:0.7615, I-F1:0.8318, P-AUROC:0.8763, P-AP:0.2779, P-F1:0.3510, P-AUPRO:0.5184
+iter [9516/40000], loss:0.0969
+iter [9594/40000], loss:0.1004
+iter [9672/40000], loss:0.0962
+iter [9750/40000], loss:0.0988
+iter [9828/40000], loss:0.1076
+iter [9906/40000], loss:0.1018
+iter [9984/40000], loss:0.1051
+rice: I-Auroc:0.6202, I-AP:0.7833, I-F1:0.8295, P-AUROC:0.8723, P-AP:0.0808, P-F1:0.1433, P-AUPRO:0.4060
+Mean: I-Auroc:0.6202, I-AP:0.7833, I-F1:0.8295, P-AUROC:0.8723, P-AP:0.0808, P-F1:0.1433, P-AUPRO:0.4060
+Saving checkpoint: ./saved_results/mvtec2_dual_donut_convnext/model_iter_10000.pth
+device: cuda:0
+mode: single
+train images: 313 | classes: rice
+groups_a: [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35], [36, 37, 38, 39]]
+iter [78/40000], loss:0.1973
+iter [156/40000], loss:0.1176
+device: cuda:0
+mode: single
+train images: 313 | classes: rice
+groups_a: [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]]
+device: cuda:0
+mode: single
+train images: 313 | classes: rice
+groups_a: [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]]
+device: cuda:0
+mode: single
+train images: 313 | classes: rice
+groups_a: [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]]
+iter [78/40000], loss:0.1670
+iter [156/40000], loss:0.1077
+iter [234/40000], loss:0.0875
+iter [312/40000], loss:0.0706
+iter [390/40000], loss:0.0594
+iter [468/40000], loss:0.0539
+rice: I-Auroc:0.7907, I-AP:0.9021, I-F1:0.8462, P-AUROC:0.9211, P-AP:0.4612, P-F1:0.4841, P-AUPRO:0.5726
+Mean: I-Auroc:0.7907, I-AP:0.9021, I-F1:0.8462, P-AUROC:0.9211, P-AP:0.4612, P-F1:0.4841, P-AUPRO:0.5726
+iter [546/40000], loss:0.0492
+iter [624/40000], loss:0.0465
+iter [702/40000], loss:0.0446
+iter [780/40000], loss:0.0430
+iter [858/40000], loss:0.0417
+iter [936/40000], loss:0.0407
+rice: I-Auroc:0.7183, I-AP:0.9079, I-F1:0.8491, P-AUROC:0.9213, P-AP:0.4857, P-F1:0.5125, P-AUPRO:0.5855
+Mean: I-Auroc:0.7183, I-AP:0.9079, I-F1:0.8491, P-AUROC:0.9213, P-AP:0.4857, P-F1:0.5125, P-AUPRO:0.5855
+iter [1014/40000], loss:0.0397
+iter [1092/40000], loss:0.0391
+iter [1170/40000], loss:0.0387
+iter [1248/40000], loss:0.0384
+iter [1326/40000], loss:0.0381
+iter [1404/40000], loss:0.0378
+iter [1482/40000], loss:0.0375
+rice: I-Auroc:0.7250, I-AP:0.9095, I-F1:0.8491, P-AUROC:0.9236, P-AP:0.4861, P-F1:0.5163, P-AUPRO:0.6174
+Mean: I-Auroc:0.7250, I-AP:0.9095, I-F1:0.8491, P-AUROC:0.9236, P-AP:0.4861, P-F1:0.5163, P-AUPRO:0.6174
+iter [1560/40000], loss:0.0374
+iter [1638/40000], loss:0.0371
+iter [1716/40000], loss:0.0369
+iter [1794/40000], loss:0.0367
+iter [1872/40000], loss:0.0365
+iter [1950/40000], loss:0.0365
+rice: I-Auroc:0.7324, I-AP:0.9016, I-F1:0.8500, P-AUROC:0.9249, P-AP:0.4916, P-F1:0.5203, P-AUPRO:0.6293
+Mean: I-Auroc:0.7324, I-AP:0.9016, I-F1:0.8500, P-AUROC:0.9249, P-AP:0.4916, P-F1:0.5203, P-AUPRO:0.6293
+iter [2028/40000], loss:0.0362
+iter [2106/40000], loss:0.0361
+iter [2184/40000], loss:0.0359
+iter [2262/40000], loss:0.0357
+iter [2340/40000], loss:0.0355
+iter [2418/40000], loss:0.0354
+iter [2496/40000], loss:0.0353
+rice: I-Auroc:0.7367, I-AP:0.9060, I-F1:0.8451, P-AUROC:0.9247, P-AP:0.4871, P-F1:0.5208, P-AUPRO:0.6131
+Mean: I-Auroc:0.7367, I-AP:0.9060, I-F1:0.8451, P-AUROC:0.9247, P-AP:0.4871, P-F1:0.5208, P-AUPRO:0.6131
+iter [2574/40000], loss:0.0351
+iter [2652/40000], loss:0.0350
+iter [2730/40000], loss:0.0349
+iter [2808/40000], loss:0.0348
+iter [2886/40000], loss:0.0346
+iter [2964/40000], loss:0.0345
+rice: I-Auroc:0.7395, I-AP:0.9002, I-F1:0.8396, P-AUROC:0.9247, P-AP:0.4922, P-F1:0.5239, P-AUPRO:0.6134
+Mean: I-Auroc:0.7395, I-AP:0.9002, I-F1:0.8396, P-AUROC:0.9247, P-AP:0.4922, P-F1:0.5239, P-AUPRO:0.6134
+iter [3042/40000], loss:0.0344
+iter [3120/40000], loss:0.0343
+iter [3198/40000], loss:0.0342
+iter [3276/40000], loss:0.0340
+iter [3354/40000], loss:0.0339
+iter [3432/40000], loss:0.0338
+rice: I-Auroc:0.7409, I-AP:0.8963, I-F1:0.8384, P-AUROC:0.9250, P-AP:0.4883, P-F1:0.5200, P-AUPRO:0.5980
+Mean: I-Auroc:0.7409, I-AP:0.8963, I-F1:0.8384, P-AUROC:0.9250, P-AP:0.4883, P-F1:0.5200, P-AUPRO:0.5980
+iter [3510/40000], loss:0.0337
+device: cuda:0
+mode: dual
+train images: 725 | classes: can,rice
+groups_a: [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]]
+groups_b: [[5, 6, 7, 8, 9, 10, 11], [12, 13, 14, 15, 16, 17]]
+device: cuda:0
+mode: dual
+train images: 725 | classes: can,rice
+groups_a: [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]]
+groups_b: [[5, 6, 7, 8, 9, 10, 11], [12, 13, 14, 15, 16, 17]]
+device: cuda:0
+mode: dual
+train images: 725 | classes: can,rice
+groups_a: [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]]
+groups_b: [[5, 6, 7, 8, 9, 10, 11], [12, 13, 14, 15, 16, 17]]
+device: cuda:0
+mode: dual
+train images: 725 | classes: can,rice
+groups_a: [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]]
+groups_b: [[5, 6, 7, 8, 9, 10, 11], [12, 13, 14, 15, 16, 17]]
+can: I-Auroc:0.6997, I-AP:0.7359, I-F1:0.7404, P-AUROC:0.9656, P-AP:0.0289, P-F1:0.0623, P-AUPRO:0.6239
+rice: I-Auroc:0.4487, I-AP:0.6180, I-F1:0.8279, P-AUROC:0.5359, P-AP:0.0020, P-F1:0.0049, P-AUPRO:0.1755
+Mean: I-Auroc:0.5742, I-AP:0.6770, I-F1:0.7841, P-AUROC:0.7508, P-AP:0.0155, P-F1:0.0336, P-AUPRO:0.3997
+can: I-Auroc:0.5936, I-AP:0.6771, I-F1:0.7602, P-AUROC:0.9092, P-AP:0.0227, P-F1:0.0591, P-AUPRO:0.4785
+rice: I-Auroc:0.5114, I-AP:0.7809, I-F1:0.8108, P-AUROC:0.5188, P-AP:0.0022, P-F1:0.0059, P-AUPRO:0.2232
+Mean: I-Auroc:0.5525, I-AP:0.7290, I-F1:0.7855, P-AUROC:0.7140, P-AP:0.0124, P-F1:0.0325, P-AUPRO:0.3508
+device: cuda:0
+mode: dual
+train images: 725 | classes: can,rice
+groups_a: [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]]
+groups_b: [[5, 6, 7, 8], [9, 10, 11, 12]]
+can: I-Auroc:0.4701, I-AP:0.4969, I-F1:0.7325, P-AUROC:0.9740, P-AP:0.0479, P-F1:0.1063, P-AUPRO:0.5023
+rice: I-Auroc:0.5923, I-AP:0.7369, I-F1:0.8372, P-AUROC:0.6767, P-AP:0.0046, P-F1:0.0170, P-AUPRO:0.3042
+Mean: I-Auroc:0.5312, I-AP:0.6169, I-F1:0.7849, P-AUROC:0.8254, P-AP:0.0262, P-F1:0.0616, P-AUPRO:0.4033
+can: I-Auroc:0.5018, I-AP:0.5914, I-F1:0.7438, P-AUROC:0.8772, P-AP:0.0418, P-F1:0.0869, P-AUPRO:0.5677
+rice: I-Auroc:0.5671, I-AP:0.8120, I-F1:0.8224, P-AUROC:0.6093, P-AP:0.0051, P-F1:0.0187, P-AUPRO:0.3307
+Mean: I-Auroc:0.5344, I-AP:0.7017, I-F1:0.7831, P-AUROC:0.7433, P-AP:0.0235, P-F1:0.0528, P-AUPRO:0.4492
+can: I-Auroc:0.5165, I-AP:0.6375, I-F1:0.7287, P-AUROC:0.8386, P-AP:0.0368, P-F1:0.0776, P-AUPRO:0.5410
+rice: I-Auroc:0.5510, I-AP:0.8158, I-F1:0.8276, P-AUROC:0.6113, P-AP:0.0069, P-F1:0.0289, P-AUPRO:0.3478
+Mean: I-Auroc:0.5337, I-AP:0.7267, I-F1:0.7782, P-AUROC:0.7249, P-AP:0.0218, P-F1:0.0532, P-AUPRO:0.4444
+iter [362/2000], loss:0.0887
+can: I-Auroc:0.5298, I-AP:0.6719, I-F1:0.7258, P-AUROC:0.8325, P-AP:0.0376, P-F1:0.0775, P-AUPRO:0.5440
+rice: I-Auroc:0.5418, I-AP:0.7913, I-F1:0.8145, P-AUROC:0.6208, P-AP:0.0077, P-F1:0.0301, P-AUPRO:0.3619
+Mean: I-Auroc:0.5358, I-AP:0.7316, I-F1:0.7701, P-AUROC:0.7266, P-AP:0.0226, P-F1:0.0538, P-AUPRO:0.4529
+can: I-Auroc:0.5370, I-AP:0.6215, I-F1:0.7303, P-AUROC:0.8416, P-AP:0.0587, P-F1:0.1227, P-AUPRO:0.5429
+rice: I-Auroc:0.5375, I-AP:0.7902, I-F1:0.8128, P-AUROC:0.6288, P-AP:0.0093, P-F1:0.0401, P-AUPRO:0.3839
+Mean: I-Auroc:0.5373, I-AP:0.7058, I-F1:0.7715, P-AUROC:0.7352, P-AP:0.0340, P-F1:0.0814, P-AUPRO:0.4634
+can: I-Auroc:0.5402, I-AP:0.6527, I-F1:0.7768, P-AUROC:0.8463, P-AP:0.0414, P-F1:0.0877, P-AUPRO:0.5547
+rice: I-Auroc:0.5355, I-AP:0.7911, I-F1:0.8108, P-AUROC:0.6366, P-AP:0.0119, P-F1:0.0495, P-AUPRO:0.3785
+Mean: I-Auroc:0.5379, I-AP:0.7219, I-F1:0.7938, P-AUROC:0.7415, P-AP:0.0266, P-F1:0.0686, P-AUPRO:0.4666
+can: I-Auroc:0.5400, I-AP:0.6333, I-F1:0.7650, P-AUROC:0.8515, P-AP:0.0475, P-F1:0.0966, P-AUPRO:0.5778
+rice: I-Auroc:0.5341, I-AP:0.7850, I-F1:0.8108, P-AUROC:0.6446, P-AP:0.0157, P-F1:0.0648, P-AUPRO:0.4152
+Mean: I-Auroc:0.5370, I-AP:0.7091, I-F1:0.7879, P-AUROC:0.7481, P-AP:0.0316, P-F1:0.0807, P-AUPRO:0.4965
+iter [724/2000], loss:0.0267
+can: I-Auroc:0.5414, I-AP:0.6360, I-F1:0.7757, P-AUROC:0.8563, P-AP:0.0440, P-F1:0.0937, P-AUPRO:0.5832
+rice: I-Auroc:0.5356, I-AP:0.7860, I-F1:0.8108, P-AUROC:0.6532, P-AP:0.0174, P-F1:0.0720, P-AUPRO:0.4005
+Mean: I-Auroc:0.5385, I-AP:0.7110, I-F1:0.7933, P-AUROC:0.7548, P-AP:0.0307, P-F1:0.0828, P-AUPRO:0.4919
+can: I-Auroc:0.5423, I-AP:0.6288, I-F1:0.7650, P-AUROC:0.8587, P-AP:0.0322, P-F1:0.0729, P-AUPRO:0.5740
+rice: I-Auroc:0.5344, I-AP:0.7675, I-F1:0.8108, P-AUROC:0.6592, P-AP:0.0187, P-F1:0.0740, P-AUPRO:0.4091
+Mean: I-Auroc:0.5384, I-AP:0.6981, I-F1:0.7879, P-AUROC:0.7589, P-AP:0.0255, P-F1:0.0735, P-AUPRO:0.4915
+can: I-Auroc:0.5432, I-AP:0.6232, I-F1:0.7658, P-AUROC:0.8620, P-AP:0.0407, P-F1:0.0899, P-AUPRO:0.5788
+rice: I-Auroc:0.5338, I-AP:0.7763, I-F1:0.8108, P-AUROC:0.6653, P-AP:0.0238, P-F1:0.0897, P-AUPRO:0.4255
+Mean: I-Auroc:0.5385, I-AP:0.6997, I-F1:0.7883, P-AUROC:0.7637, P-AP:0.0323, P-F1:0.0898, P-AUPRO:0.5022
+device: cuda:0
+mode: dual
+train images: 725 | classes: can,rice
+groups_a: [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]]
+groups_b: [[5, 6, 7, 8], [9, 10, 11, 12]]
+can: I-Auroc:0.6069, I-AP:0.6317, I-F1:0.7354, P-AUROC:0.9649, P-AP:0.0265, P-F1:0.0723, P-AUPRO:0.4365
+rice: I-Auroc:0.6376, I-AP:0.7930, I-F1:0.8241, P-AUROC:0.7074, P-AP:0.0047, P-F1:0.0154, P-AUPRO:0.3305
+Mean: I-Auroc:0.6223, I-AP:0.7123, I-F1:0.7797, P-AUROC:0.8362, P-AP:0.0156, P-F1:0.0438, P-AUPRO:0.3835
+can: I-Auroc:0.5771, I-AP:0.6424, I-F1:0.7639, P-AUROC:0.9609, P-AP:0.0257, P-F1:0.0655, P-AUPRO:0.4950
+rice: I-Auroc:0.5655, I-AP:0.7726, I-F1:0.8108, P-AUROC:0.6569, P-AP:0.0051, P-F1:0.0179, P-AUPRO:0.3587
+Mean: I-Auroc:0.5713, I-AP:0.7075, I-F1:0.7874, P-AUROC:0.8089, P-AP:0.0154, P-F1:0.0417, P-AUPRO:0.4268
+can: I-Auroc:0.5532, I-AP:0.6621, I-F1:0.7619, P-AUROC:0.9405, P-AP:0.0202, P-F1:0.0568, P-AUPRO:0.3784
+rice: I-Auroc:0.5554, I-AP:0.8334, I-F1:0.8182, P-AUROC:0.6417, P-AP:0.0061, P-F1:0.0228, P-AUPRO:0.3852
+Mean: I-Auroc:0.5543, I-AP:0.7478, I-F1:0.7900, P-AUROC:0.7911, P-AP:0.0131, P-F1:0.0398, P-AUPRO:0.3818
+iter [362/2000], loss:0.1808
+can: I-Auroc:0.5954, I-AP:0.7428, I-F1:0.7542, P-AUROC:0.8692, P-AP:0.0039, P-F1:0.0139, P-AUPRO:0.3211
+device: cuda:0
+mode: dual
+train images: 725 | classes: can,rice
+groups_a: [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]]
+groups_b: [[5, 6, 7, 8], [9, 10, 11, 12]]
+device: cuda:0
+mode: dual
+train images: 725 | classes: can,rice
+groups_a: [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]]
+groups_b: [[5, 6, 7, 8], [9, 10, 11, 12]]
+device: cuda:0
+mode: dual
+train images: 725 | classes: can,rice
+groups_a: [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]]
+groups_b: [[5, 6, 7, 8], [9, 10, 11, 12]]
+device: cuda:0
+mode: dual
+train images: 725 | classes: can,rice
+groups_a: [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]]
+groups_b: [[5, 6, 7, 8], [9, 10, 11, 12]]
+device: cuda:0
+mode: dual
+train images: 725 | classes: can,rice
+groups_a: [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]]
+groups_b: [[5, 6, 7, 8], [9, 10, 11, 12]]
+device: cuda:0
+mode: dual
+train images: 725 | classes: can,rice
+groups_a: [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]]
+groups_b: [[5, 6, 7, 8], [9, 10, 11, 12]]
+device: cuda:0
+mode: dual
+train images: 725 | classes: can,rice
+groups_a: [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]]
+groups_b: [[5, 6, 7, 8], [9, 10, 11, 12]]
+device: cuda:0
+mode: dual
+train images: 725 | classes: can,rice
+groups_a: [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]]
+groups_b: [[5, 6, 7, 8], [9, 10, 11, 12]]
+device: cuda:0
+mode: dual
+train images: 725 | classes: can,rice
+groups_a: [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]]
+groups_b: [[5, 6, 7, 8], [9, 10, 11, 12]]
+device: cuda:0
+mode: dual
+train images: 725 | classes: can,rice
+groups_a: [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]]
+groups_b: [[5, 6, 7, 8], [9, 10, 11, 12]]

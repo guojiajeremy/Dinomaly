@@ -13,8 +13,6 @@ import json
 # import imgaug.augmenters as iaa
 # from perlin import rand_perlin_2d_np
 
-torch.multiprocessing.set_sharing_strategy('file_system')
-
 
 def get_data_transforms(size, isize, mean_train=None, std_train=None):
     mean_train = [0.485, 0.456, 0.406] if mean_train is None else mean_train
