@@ -18,3 +18,4 @@ colorama
 transformers
 open-clip-torch
 hf_transfer
+open-clip-torch
