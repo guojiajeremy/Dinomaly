@@ -2,30 +2,18 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Debug Dinomaly Dual",
+      "name": "Debug Dinomaly",
       "type": "debugpy",
       "request": "launch",
-      "program": "${workspaceFolder}/dinomaly_mvtec2_uni_dual.py",
+      "program": "${workspaceFolder}/test_dino_in_multi_mvtec_sep.py",
       "console": "integratedTerminal",
       "justMyCode": false,
       "args": [
-        "--data_path", "/root/autodl-tmp/mvtec_ad_2",
-        "--classes", "can, rice",
-        "--save_dir", "./saved_results",
-        "--save_name", "mvtec2_dual_donut_convnext",
-        "--batch_size", "2",
-        "--imagesize", "512",
-        "--total_iters", "2000",
-        "--eval_every", "100",
-        "--save_every", "10000",
-        "--lr", "2e-3",
-        "--lr_final", "2e-4",
-        "--mode","dual"
+
       ],
       "env": {
         "PYTHONPATH": "${workspaceFolder}"
       },
-      "python": "/root/miniconda3/bin/python",
       "cwd": "${workspaceFolder}"
     }
   ]
