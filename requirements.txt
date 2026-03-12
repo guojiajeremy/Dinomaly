@@ -15,3 +15,5 @@ tqdm==4.64.1
 ptflops==0.7
 timm==0.9.12
 transformers
+open-clip-torch
+hf_transfer
