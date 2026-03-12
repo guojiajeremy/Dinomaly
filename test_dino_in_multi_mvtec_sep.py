@@ -266,7 +266,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--save_name",
         type=str,
-        default="vitill_mvtec_sep_dinov2br_c392_en29_bn4dp2_de8_elaelu_md2_i1_it10k_sadm2e3_wd1e4_w1hcosa_ghmp09f01w1k_b16_ev_s1",
+        default="test_fuser",
     )
     args = parser.parse_args()
 
