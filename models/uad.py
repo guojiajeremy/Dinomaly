@@ -442,10 +442,7 @@ class ViTill_test(nn.Module):
 
         # Use fused features for encoding
         # Keep original encoder features for skip connections (if using multiple encoders)
-        if len(self.encoder_names) == 1:
-            en = outputs[self.encoder_names[0]]["fused_group_feats"]
-        else:
-            en = outputs[self.encoder_names[0]]["fused_group_feats"]
+        en = outputs[self.encoder_names[0]]["fused_group_feats"]
 
         x = fused_target.reshape(
             fused_target.shape[0], fused_target.shape[1], -1
