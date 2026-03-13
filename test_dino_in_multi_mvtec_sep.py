@@ -123,10 +123,10 @@ def train(item):
     fuse_layer_decoder = [[0, 1, 2, 3, 4, 5, 6, 7]]
     encoder_configs = {
         "dino": {
-            "fuse_layer_encoder": [[0, 1, 2, 3, 4, 5, 6, 7]],
+            "fuse_layer_encoder": [[0, 1, 2, 3], [4, 5, 6, 7]],
             "target_layers": [2, 3, 4, 5, 6, 7, 8, 9],
             "backbone": "dinov2reg_vit_base_14",
-            "n": 10,  # 至少保证 outputs[0..9] 可取
+            "n": 10,
             "norm": True,
             "trainable": False,
         },
@@ -138,6 +138,21 @@ def train(item):
             "n": 10,
             "norm": True,
             "trainable": False,
+        },
+        "resnet": {
+            "arch": "wide_resnet50_2",
+            "pretrained": True,
+            "fuse_layer_encoder": [[2, 3]],
+            "target_layers": [1, 2, 3],
+            "n": 4,
+            "trainable": False,
+        },
+        "donut": {
+            "model_name": "naver-clova-ix/donut-base",
+            "fuse_layer_encoder": [[2, 3, 4, 6, 8, 10, 12, 14]],
+            "target_layers": [4, 6, 8, 10, 12, 14, 16, 18],
+            "trainable": False,
+            "do_resize": False,
         },
     }
     multi_encoder = MultiEncoder(encoder_configs=encoder_configs)
@@ -191,6 +206,7 @@ def train(item):
         encoder=multi_encoder,
         bottleneck=bottleneck,
         decoder=decoder,
+        encoder_names=["dino", "clip", "resnet", "donut"],
         fuse_layer_decoder=fuse_layer_decoder,
     )
     model = model.to(device)
