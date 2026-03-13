@@ -148,9 +148,6 @@ def train(item_list):
         decoder.append(blk)
     decoder = nn.ModuleList(decoder)
 
-    model = ViTill(encoder=encoder, bottleneck=bottleneck, decoder=decoder, target_layers=target_layers,
-                   mask_neighbor_size=0, fuse_layer_encoder=fuse_layer_encoder, fuse_layer_decoder=fuse_layer_decoder)
-    model = model.to(device)
     trainable = nn.ModuleList([bottleneck, decoder])
 
     for m in trainable.modules():
@@ -161,6 +158,10 @@ def train(item_list):
         elif isinstance(m, nn.LayerNorm):
             nn.init.constant_(m.bias, 0)
             nn.init.constant_(m.weight, 1.0)
+
+    model = ViTill(encoder=encoder, bottleneck=bottleneck, decoder=decoder, target_layers=target_layers,
+                   mask_neighbor_size=0, fuse_layer_encoder=fuse_layer_encoder, fuse_layer_decoder=fuse_layer_decoder)
+    model = model.to(device)
 
     optimizer = StableAdamW([{'params': trainable.parameters()}],
                             lr=2e-3, betas=(0.9, 0.999), weight_decay=1e-4, amsgrad=True, eps=1e-10)
@@ -240,10 +241,10 @@ if __name__ == '__main__':
     import argparse
 
     parser = argparse.ArgumentParser(description='')
-    parser.add_argument('--data_path', type=str, default='../mvtec_anomaly_detection')
+    parser.add_argument('--data_path', type=str, default='./mvtec_anomaly_detection')
     parser.add_argument('--save_dir', type=str, default='./saved_results')
     parser.add_argument('--save_name', type=str,
-                        default='vitill_mvtec_uni_dinov2br_c392_en29_bn4dp2_de8_laelu_md2_i1_it10k_sams2e3_wd1e4_w1hcosa2e4_ghmp09f01w01_b16_s1')
+                        default='debug')
     args = parser.parse_args()
     #
     item_list = ['carpet', 'grid', 'leather', 'tile', 'wood', 'bottle', 'cable', 'capsule',

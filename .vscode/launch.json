@@ -1,8 +1,20 @@
 {
   "version": "0.2.0",
   "configurations": [
+     {
+      "name": "Debug Original Dinomaly",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/dinomaly_mvtec_uni.py",
+      "console": "integratedTerminal",
+      "justMyCode": false,
+      "args": [
+
+      ],
+      "cwd": "${workspaceFolder}"
+    },
     {
-      "name": "Debug Dinomaly",
+      "name": "Debug Fuser",
       "type": "debugpy",
       "request": "launch",
       "program": "${workspaceFolder}/test_dino_in_multi_mvtec_sep.py",
