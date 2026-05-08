@@ -32,6 +32,7 @@ PyTorch Implementation of CVPR 2025
  - _08.2025_: I have sucessfully implement [DINOv3](https://ai.meta.com/dinov3/) on Dinomaly. The pixel-level performance is much better, with slightly lower image-level performance. DINOv3-Large on MVTecAD: I-Auroc:0.9970, P-AUROC:0.9878, P-AP:0.7422, P-F1:0.7184, P-AUPRO:0.9580. Due to DINOv3 requiring newer versions of Python (>3.10) and PyTorch (>2.7), it is not provided in this repository. You can refer to [cnlab](https://github.com/cnulab)'s forked [branch](https://github.com/cnulab/Dinomaly). Great thanks!
 
  - _**10.2025**_: We are thrilled to present the extended version of Dinomaly, now evolved into [**Dinomaly2**](https://arxiv.org/abs/2510.17611)!!! We introduce the first **unified framework** for **full-spectrum** UAD that seamlessly handles diverse _data modalities_ (2D, multi-view, RGB-3D, RGB-IR), _task settings_ (single-class, multi-class, inference-unified multi-class, few-shot) and application domains (industrial, biological, outdoor). Of course, Dinomaly2 achieves unprecedented UAD performance. Check it out😎
+ - _**05.2026**_:Preview code of Dinomaly2 released at [here](https://github.com/guojiajeremy/Dinomaly2). We also support super-large multi-class datasets: Real-IAD_Variety (160 classes) and ADNet (380 classes). How great is that!🚀
    <img width="4727" height="3166" alt="fig1" src="https://github.com/user-attachments/assets/dde44a53-eaad-4175-8dc2-205e4c6f71e7" />
 
    
