@@ -14,6 +14,8 @@ PyTorch Implementation of CVPR 2025
 
 - This project is released under **Apache-2.0 License**. If your method is based on Dinomaly, please acknowledge it in your work (papers, products, patents, competitions, etc.), preferably as a "Preliminary" section.
 
+- See [here](https://github.com/guojiajeremy/Dinomaly2) for the code of [**Dinomaly2**](https://arxiv.org/abs/2510.17611).
+
 ![fig1](https://github.com/user-attachments/assets/0bb2e555-656f-4218-b93b-844b5894e429)
 <img width="3824" height="1219" alt="fig2_2" src="https://github.com/user-attachments/assets/d3c5169a-3c15-4828-92b4-6f13d142d2ce" />
 
