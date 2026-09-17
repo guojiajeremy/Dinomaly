@@ -4,6 +4,9 @@
 
 ### CVPR 2025 
 [![arXiv](https://img.shields.io/badge/arXiv-2405.14325-b31b1b.svg?style=plastic)](https://arxiv.org/abs/2405.14325) [![CVF](https://img.shields.io/badge/CVPR-Paper-b4c7e7.svg?style=plastic)](https://openaccess.thecvf.com/content/CVPR2025/html/Guo_Dinomaly_The_Less_Is_More_Philosophy_in_Multi-Class_Unsupervised_Anomaly_CVPR_2025_paper.html)
+[![Papers with Code: SOTA on MVTec AD (Unified Multi-Class)](https://paperswithcode.co/api/v1/papers/2405.14325/leaderboard-badge.svg?eval=15147&live=1)](https://paperswithcode.co/api/v1/papers/2405.14325/leaderboard-badge-link?eval=15147)
+[![Papers with Code: SOTA on Real-IAD (Unified Multi-Class)](https://paperswithcode.co/api/v1/papers/2405.14325/leaderboard-badge.svg?eval=15161&live=1)](https://paperswithcode.co/api/v1/papers/2405.14325/leaderboard-badge-link?eval=15161)
+[![Papers with Code: SOTA on VisA (Unified Multi-Class)](https://paperswithcode.co/api/v1/papers/2405.14325/leaderboard-badge.svg?eval=15154&live=1)](https://paperswithcode.co/api/v1/papers/2405.14325/leaderboard-badge-link?eval=15154)
 
 </div>
 
